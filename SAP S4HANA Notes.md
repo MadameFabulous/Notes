@@ -52,10 +52,6 @@ Only planned independent requirements in the related period are consumed
 
 Individual vs Collective
 
-
-
-
-
 MRP S/4HANA
 
 MRP Process Steps
@@ -64,8 +60,6 @@ MRP Process Steps
 
 2. 
 
-
-
 # MRP Types
 
 ## Deterministic Planning
@@ -73,8 +67,6 @@ MRP Process Steps
 Driven by forecasting and sales orders to calculate materials requirements gaps based on plan
 
 Better suited for high-touch or A Stock type items
-
-
 
 ## Consumption-Based Planning
 
@@ -89,8 +81,6 @@ Better suited for B/C Stock types with historical data at steady state
 ROP is considered consumption based planning
 
 ![](https://learning.sap.com/service/media/topic/d80db90d-b3ad-4c97-bb31-ba49d260ce82/S42000_23_en-US_media/S42000_23_en-US_images/U3_L1_01.png)
-
-
 
 ## BOM Explosion and Multilevel Backward Scheduling
 
@@ -131,8 +121,6 @@ Lead Time Scheduling and Capacity Planning
 ![](https://learning.sap.com/service/media/topic/d80db90d-b3ad-4c97-bb31-ba49d260ce82/S42000_23_en-US_media/S42000_23_en-US_images/U3_L2_01.png)
 
 ## MRP Live
-
-
 
 ![](C:\Users\wright\AppData\Roaming\marktext\images\2023-08-17-07-30-32-image.png)
 
