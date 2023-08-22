@@ -142,8 +142,6 @@ This also had additional benefits when the business engages in significant M&A A
 
 ![](C:\Users\wright\AppData\Roaming\marktext\images\2023-08-22-06-51-35-image.png)
 
-
-
 - Lead to Cash - Revenue and CX for Order to Cash
 
 - Design to Operate - Engineering to Manufacturing
