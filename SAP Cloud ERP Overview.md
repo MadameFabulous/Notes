@@ -250,8 +250,6 @@ SAP Grow offers a suite of products for midsized enterprises
 
 - Learning Management System
 
-
-
 ### CPEA Credits
 
 Cloud Platform Enterprise Agreement(CPEA) credits are used to consume BTP services.
@@ -369,7 +367,6 @@ Best Practice Explorer items include the following data
 
 Included for all SAP cloud offerings regardless of edition. Contingent on an Enterprise Support Agreement
 
-
 ![](C:\Users\wright\AppData\Roaming\marktext\images\2023-08-23-07-29-41-image.png)
 
 #### SAP ALM for Implementation
@@ -403,3 +400,187 @@ Tracks
 - Open Requirements
 
 - Fit-to-Standard workshops
+
+## Configuration Options
+
+### New Implementation
+
+#### Public Cloud
+
+SAP Central Business Configuration is the tool for managing a multi-system deployment. Handles provisioning for SAP Cloud edition as well as SaaS platforms(Ariba, Concur, SuccessFactors)
+
+Consists of three Subject Areas
+
+- Project Experience
+  
+  - Project management intake pipeline
+
+- Scoping
+  
+  - Identifying the correct application of the SAP Best Practices guide to the project or the task
+
+- Central Configuration
+  
+  - Serves as a staging ground for deployments
+  
+  - Build organizational structure and set up configurations before deployment to the subsystems
+
+### 
+
+## New Implementation
+
+### Configuration Pathways for Private Cloud
+
+- Activate Methodology with Best Practices (and Enterprise Management Layer if delegated during the sales pipeline)
+
+- Implementation Guide(IMG) with Activate Methodology with Best Practices for task management
+
+- Only IMG is used - this will involve the SPRO txn :shrug:
+
+##### SAP Best Practices for Private Cloud
+
+SAP Solution Builder is the tool for the deployment of SAP Best practices for Private Cloud customers 
+
+Best Practice Scenarios are predefined process flows for the business that are deployed through the solution builder
+
+Best practices are deployed to the development environment and then flow through to the test/quality system and production via "Transports"
+
+##### Signavio for New Implementations
+
+Signavio picks up where the Solution Builder left off and breaks out the selected deployment into tasks and deliverables while providing the Collaboration Hub as a space to work through the deployment.
+
+##### Configuration Responsibilities
+
+SAP Consultants are responsible for the questionnaire that is conducted as part of the sales pipeline
+
+Client or Implementation Consultant is responsible for tasks and customization that is required for their deployment
+
+### System Conversion for Legacy Systems
+
+![](https://learning.sap.com/service/media/topic/fe5dc72a-216a-4a07-8cf2-3c8821358470/S4CP01_27_en-US_media/S4CP01_27_en-US_images/2105_U3_L2_03_ConfigSysConver_001.png)
+
+SAP Consultants handle configurations of technical items like Client 000 (Admin Client) that cannot be prepared by the client
+
+#### Client Responsibilities
+
+- SAP Readiness Check
+
+- Custom Code Optimization
+
+- Functional Testing
+
+- Integration Testing 
+
+### Activate Methodology Steps for Conversions
+
+#### Prepare Phase Tools
+
+##### Simplification Item Catalog
+
+Simplification Items are the steps needed to be taken for a conversion for the business and IT
+
+##### SAP Readiness Check
+
+Only for SAP ERP 6.0 Customers. Automated tool for high level, rough-cut specifications and compatibility considerations.
+
+##### Maintenance Planner
+
+This is the first step in an SAP conversion.
+Checks compatibility with SAP S/4HANA.
+Creates the stack file that is used in the conversion which is a requirement for the Software Update Manager(SUM) tool
+
+##### Simplification Item Check
+
+These are the technical checks to  ensure that you can be converted. This is a mandatory step that is triggered by the System Update Manager(SUM) tool. Since SUM is required, this is required for all conversions.
+
+##### Custom Code Migration
+
+The Custom Code Migration Tool checks against a list of simplifications. This is not mandatory for the prepare phase
+
+#### Realize Phase Tools
+
+##### Software Update Manager(SUM)
+
+The SUM manages the migration of mapped data and custom applications. For larger legacy systems the Silent Data Migration Infrastructure (SMDI)
+
+### Fiori Launchpad Configuration for Private Cloud
+
+![](https://learning.sap.com/service/media/topic/f8764952-e58a-415e-ac6e-4a36ad74d7a5/S4CP01_27_en-US_media/S4CP01_27_en-US_images/2105_U3_L2_04_ConfigFiori_001.png)
+
+For all implementation paths Fiori Launchpad is configured separately from the applications that are managed. Public Edition comes with a preconfigured set of suggested applications. Private Edition customers will have a set of Fiori applications identified as part of the Readiness Check step of the deployment.
+
+#### Deployment Options for Fiori Launchpad
+
+Client 100 is deployed with the Fiori launchpad for New implementations by the SAP consultants. This serves as the template for the business and is configured by SAP Consultants as identified during the readiness check.
+
+Customers or Implementation Partners are responsible for the non-technical activities like designing user profiles and application selection
+
+## Integrations with S/4HANA Cloud Deployment
+
+### Intelligent Enterprise Toolkit
+
+- Out-of-the-Box Integrations
+  
+  - Prepackaged end-to-end integrations
+  
+  - Cloud Integration Automation Services(CIAS)
+
+- Open Integrations
+  
+  - Any third-party integration and custom extensions that leverage public APIs can be integrated into SAP Cloud
+  
+  - 160+ third-party applications currently integrated
+
+- AI-Optimized Integrations
+  
+  - Integration Advisor is a crowd-based(customer data trained?) tool to drive ease of use for B2B and A2A integrations
+  
+  - Artificial intelligence and machine learning are used to simplify the development of integration scenarios.
+  
+  Content Advisor Architecture
+  
+  ![](https://blogs.sap.com/wp-content/uploads/2018/01/figure_1.png)
+
+### [Integration Solution Advisor Methodology(ISA-M)]([Integration Solution Advisory Methodology (ISA-M): Define Integration Guidelines for Your Organization | SAP Blogs](https://blogs.sap.com/2019/02/24/integration-solution-advisory-methodology-isa-m-define-integration-guidelines-for-your-organization/))
+
+![](https://blogs.sap.com/wp-content/uploads/2019/02/Figure1_IES_Principles-2.jpg)
+
+![](https://learning.sap.com/service/media/topic/f105aca7-fde3-40c6-b8e4-38546c7a776f/S4CP01_27_en-US_media/S4CP01_27_en-US_images/S4CP01_U4_L4_2_ISAM_001.png)
+
+### Components of ISA-M
+
+- Integration Domains - Entry Points
+  
+  - On-premise-to-cloud
+  
+  - Cloud-to-cloud
+
+- Integration Styles - Categories
+  
+  Defined by characteristics and use-case patterns that group these categories
+  
+  - Process
+  
+  - Data
+  
+  - User
+  
+  - IOT
+
+- Integration Technology Mapping
+  This is the timeline and breakout of skills and tools that already exists in the domains. It is a combination of domain location and integration style
+
+## SAP Integration Suite
+
+![](https://learning.sap.com/service/media/topic/cb5b4ee4-b7b0-4844-97a9-9584cd3024e6/S4CP01_27_en-US_media/S4CP01_27_en-US_images/S4CP01_U4_L4_3_IntegSuite_001.png)
+
+The **SAP Integration Suite** offers a modular set of integration services that help manage each pillar of the ecosystem.
+
+- Process integrations (application to application)
+- Master data integrations in coordination with the SAP One Domain Model
+- API-driven integrations, including full API lifecycle management and omnichannel access
+- Event-driven integrations to support sense-and respond scenarios based on business events
+- Data integration and pipelines to support data use in other applications as well as the SAP Data Intelligence platform
+- B2B integrations to integrate with suppliers, and governmental entities across the digital ecosystem
+
+Key enablers of the Integration Suite are the SAP Data Services and Process Orchestration modules
