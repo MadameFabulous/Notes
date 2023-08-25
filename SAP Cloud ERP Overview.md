@@ -572,6 +572,12 @@ Customers or Implementation Partners are responsible for the non-technical activ
 
 ## SAP Integration Suite
 
+Useful Links for Integrations:
+
+[Setup and Monitoring of Integration Scenarios (sap.com)](https://support.sap.com/en/alm/solution-manager/expert-portal/monitoring-of-integration-scenarios.html)
+
+[SAP Integration Suite – Cloud Integration](https://support.sap.com/en/alm/solution-manager/expert-portal/public-cloud-operations/sap-cloud-platform-integration.html) 
+
 ![](https://learning.sap.com/service/media/topic/cb5b4ee4-b7b0-4844-97a9-9584cd3024e6/S4CP01_27_en-US_media/S4CP01_27_en-US_images/S4CP01_U4_L4_3_IntegSuite_001.png)
 
 The **SAP Integration Suite** offers a modular set of integration services that help manage each pillar of the ecosystem.
@@ -584,3 +590,198 @@ The **SAP Integration Suite** offers a modular set of integration services tha
 - B2B integrations to integrate with suppliers, and governmental entities across the digital ecosystem
 
 Key enablers of the Integration Suite are the SAP Data Services and Process Orchestration modules
+
+
+
+![](C:\Users\wright\AppData\Roaming\marktext\images\2023-08-25-05-06-49-image.png)
+
+### SAP Cloud Connector Integration
+
+Works via a reverse invoke proxy component
+
+- Propogate identity security across systems to ensure consistency for users in multi deployment environments
+
+- Database Connections for Analysts
+
+### SAP API Management
+
+API unification for all business users
+
+### Integration and Exception Monitoring with Cloud ALM for Operations
+
+Provides an interface for the monitoring of peer-to-peer interfaces as well as the orchestration platforms
+
+Closes gap between business and IT during problem resolution process (technical issue vs. business issue) by:
+
+- Alerting to notify responsible persons in business and IT about discovered integration related problems
+- Search and track single messages based on exposed business context attributes e.g. order numbers
+- Operation automation to trigger operation flows context sensitivity for automated correction of problems
+
+### Integration Monitoring with SAP Solution Manager
+
+![](https://learning.sap.com/service/media/topic/ab93dc51-f38e-42ff-a14e-a9105ac8a36e/S4CP01_27_en-US_media/S4CP01_27_en-US_images/S4CP01_U4_L4_5_IntMoni_002.png)
+
+Similar to the Integration Monitor, the Solution Manager integrates the legacy SAP metric platforms (Interface Channel Monitoring, Connection Monitoring, and Interface Monitoring metrics from Business Process Monitoring).
+This tool is for troubleshooting mission critical components 
+
+### SAP Solution Manager Focused Run
+
+This tools is meant for broad networks that need robust testing to troubleshoot and diagnose their issues. Not a lot of other information given outside of the graphic.
+
+### Integration Monitoring in SAP Business Technology Platform
+
+- **Monitor Message Processing:** View the number and status of processed messages within a specified time window.
+- **Manage Integration Content:** View the number and status of integration content artifacts (e.g. integration flows).
+- **Mange Security:** Manage certain tasks related to the setup of secure connections between your tenant and remote systems.
+- **Manage Stores:** Manage temporary data stores on the tenant.
+- **Access Logs:** Monitor audit logs (resulting from system changes) and analyze errors that occurred during inbound HTTP processing.
+- **Manage Locks**: Display and manage lock entries that are created (in the in-progress repository) to avoid the same message being processed several times in parallel.
+
+### Integration Monitoring in SAP Analytics Cloud
+
+Using the dashboard, you can:
+
+- Monitor the integration flows which has the highest processed messages.
+- Analyze the status of processed messages.
+- Get the count of the deployed artifacts.
+
+### Integration Monitoring with SAP Fiori Apps
+
+![](https://learning.sap.com/service/media/topic/ab93dc51-f38e-42ff-a14e-a9105ac8a36e/S4CP01_27_en-US_media/S4CP01_27_en-US_images/S4CP01_U4_L4_5_IntegMonitor_005.png)
+
+All-in-one platform for developers and interface development, mapping, etc.
+
+Enables business users to reduce the time needed for error handling because they are able to monitor interfaces and troubleshoot issues without IT.
+
+## Extending the SAP S/4HANA Cloud Deployment Options
+
+### SAP S/4HANA Extensibility Concept
+
+#### In-app Extensibility
+
+##### Key User in-app extensibility
+
+Key User extensibility is driven by the Fiori launchpad and the customization in the UI and configurations
+
+##### Developer in-app extensibility
+
+Enables developers to create custom ABAP code and partner extensions in an upgrade-stable, cloud-ready programming model.
+
+![](C:\Users\wright\AppData\Roaming\marktext\images\2023-08-25-06-20-31-image.png)
+
+##### Classic in-app extensibility
+
+Custom code, modifying the SAP codebase. Can hinder or delay upgrade and merits more testing and consumes more IT resources to maintain
+
+#### Side-by-Side Extensibility
+
+This takes traditional Extensibility and manages it in SAP BTP. This decouples the extension from the code base.
+
+### Transport Extensions for Public Cloud
+
+#### Public edition
+
+![](https://learning.sap.com/service/media/topic/da1330e7-7729-4348-bbbe-d0e969556a55/S4CP01_27_en-US_media/S4CP01_27_en-US_images/U4_L4_5_Transport_pub_001.png)
+
+Transport starts in the SAP Central Business Configuration. Once the Activation activities and configuration activities there will be a prompt for a customizing request. These are exported to the test system via the Fiori "Export Customizing Transports" application this starts the pipeline for the changes to the test system.
+
+The Customizing Tenant of the development environment is the engine responsible for the transports but also defines workflows, teams, and responsibilities related to the maintenance of the extension.
+
+The Development Tenant (Client 080) is where Workbench requests are logged and released from. These are a second input to the SAP Transport Organizer view This takes the extensibility and bundles it to client 100 where it can be carried to the test and production system
+
+The "Import Collection App" bundles the developer extensibility, business configuration, and key user extensibility into a single package for the test system. This can then be carried forward to production once testing has been completed
+
+#### Private edition
+
+![](https://learning.sap.com/service/media/topic/e33532db-6974-475a-bd58-243e2637c5f2/S4CP01_27_en-US_media/S4CP01_27_en-US_images/U4_L4_6_Transport_pri_001.png)
+
+The Adaptation Transport Organizer(ATO) is responsible for the management of key user extensions. This is required to create packages and register extensions for transport.
+
+The Fiori Configure Software Packages app is responsible for certain change management activities if required for the software package.
+
+The Register Extensions for Transport app feels very similar. Unable to discern the difference a this point in my training.
+
+## Migrating Data to the SAP S/4HANA Cloud Deployment Options
+
+The Migration Cockpit is a tool to give you a platform for the three different migration solutions offered by SAP
+
+Template-based Migration
+
+Automatic Mapping :tired_face:
+
+Fiori Migrate Your Data Application
+
+**Recommended Migration Approaches**
+
+Legacy system conversion + Staging Tables
+
+Custom Migration Object  + Staging Tables
+
+[Note on Custom Migration Objects Offered to Public Edition Customers](https://me.sap.com/notes/2999428)
+
+Creating a new custom migration object with the modeler is only supported for private cloud.
+
+### Data Migration in System Conversions
+
+Database migration and custom code migration occur during the technical conversion process when an SAP ERP or SAP S/4HANA on premise system is converted to SAP S/4HANA Cloud, private edition.
+
+## Testing Business Processes in the SAP S/4HANA Cloud Deployment Options
+
+![](C:\Users\wright\AppData\Roaming\marktext\images\2023-08-25-07-31-05-image.png)
+
+### Test Automation Tool in Public Cloud
+
+300 pre-delivered test automates based on SAP Best Practices business processes, and supports customization.
+
+Fiori's Three Testing Automation Tools
+
+- Manage your Test Process
+
+- Test Your Processes
+
+- Analyze Automated Test Results
+
+Phases of testing via the Automation Tool
+
+1. Establish Scope
+   
+   Implementation Tests
+   
+   End User Acceptance Testing
+   
+   Regression Testing
+
+2. Plan Tests
+   
+   Maintain the transactional data for process steps
+   
+   Assign a virtual test user to perform the work
+   
+   Scenario 1 - No extensions or Customizations
+   
+   - Use SAP Pre-Delivered Testing Plans
+   
+   Scenario 2 - Extension or Customized Process
+   
+   - Make a copy of the closest pre-delivered test process then tailor it to the extension or customization
+   
+   The Fiori Test Your Processes application
+   
+   - Create virtual test user
+   
+   - Create test plans
+   
+   - Create test plan variants for localizations
+   
+   - Provide consent/authorization to SAP for execute quality tests on the customers behalf after a major release upgrade. They'll use the established test plans that are built out and maintained by the customer to ensure that key functionality is in-tact on the other side of a system upgrade.
+
+3. Perform Tests
+- Test Your Processes - Execute Test Plans
+
+- Analyze Automated Test Results
+  
+  - View results from the "Test Your Processes" app
+  
+  - View results from automated PUT(Provider Upgrade Testing?) after a major upgrade
+  
+  - Drill-down for details of plan execution
