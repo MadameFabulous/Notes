@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "a05612a9c330c16a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2fdc4615fe23b1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb07df32be3c1d06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SAP Cloud ERP Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ba48c8840c20a3dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf411b3544c31e8d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5a3623d6712ca17",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ae6e478bd850adb4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a3a86e179bc06570",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "5f22ce416f68796c",
+    "type": "split",
+    "children": [
+      {
+        "id": "07973fdd85ea3257",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f0d641d6b33ef55",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SAP Cloud ERP Overview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "748996eea93283dd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SAP Cloud ERP Overview.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "984bfc862edb4abe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4a8359af486d2a98",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SAP Cloud ERP Overview.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "cb07df32be3c1d06",
+  "lastOpenFiles": [
+    "Pasted image 20230828073337.png",
+    "Pasted image 20230828064149.png",
+    "Pasted image 20230828062634.png",
+    "Pasted image 20230828062441.png",
+    "Pasted image 20230828054629.png",
+    "2023-08-27.md",
+    "SAP Cloud ERP Overview.md",
+    "SAP S4HANA Notes.md",
+    "Potential Modules.md"
+  ]
+}
