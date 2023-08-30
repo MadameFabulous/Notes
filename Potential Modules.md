@@ -1,8 +1,8 @@
 # Potential Modules
 
-[Free SAP Training | SAP Learning Journeys | SAP Learning](https://learning.sap.com/learning-journey)
+[Learning Journies](https://learning.sap.com/learning-journey)
 
-[Exploring SAP Cloud ERP | SAP Learning](https://learning.sap.com/learning-journey/explore-sap-cloud-erp)
+[Exploring SAP Cloud ERP | SAP Learning](https://learning.sap.com/learning-journey/explore-sap-cloud-erp) - Done
 
 [Discovering End-to-End Business Processes for the Intelligent Enterprise | SAP Learning](https://learning.sap.com/learning-journey/discovering-end-to-end-business-processes-for-the-intelligent-enterprise)
 

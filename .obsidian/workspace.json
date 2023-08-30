@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAP Cloud ERP Overview.md",
+                "file": "End-to-End Business Processes for the Intelligent Enterprise/End-to-End Business Processes for the Intelligent Enterprise.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SAP Cloud ERP Overview.md",
+                "file": "End-to-End Business Processes for the Intelligent Enterprise/End-to-End Business Processes for the Intelligent Enterprise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SAP Cloud ERP Overview.md",
+                "file": "End-to-End Business Processes for the Intelligent Enterprise/End-to-End Business Processes for the Intelligent Enterprise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SAP Cloud ERP Overview.md"
+                "file": "End-to-End Business Processes for the Intelligent Enterprise/End-to-End Business Processes for the Intelligent Enterprise.md"
               }
             }
           }
@@ -149,14 +149,27 @@
   },
   "active": "cb07df32be3c1d06",
   "lastOpenFiles": [
-    "Pasted image 20230828073337.png",
-    "Pasted image 20230828064149.png",
-    "Pasted image 20230828062634.png",
-    "Pasted image 20230828062441.png",
-    "Pasted image 20230828054629.png",
-    "2023-08-27.md",
+    "Pasted image 20230830070932.png",
+    "Pasted image 20230830060604.png",
+    "Cloud ERP Overview/SAP Cloud ERP Overview.md",
+    "End-to-End Business Processes for the Intelligent Enterprise/End-to-End Business Processes for the Intelligent Enterprise.md",
+    "Pasted image 20230830054641.png",
+    "Pasted image 20230830054607.png",
+    "Pasted image 20230830054216.png",
+    "Pasted image 20230830054029.png",
+    "Potential Modules.md",
+    "Manufacturing Module/SAP S4HANA Manufacturing Module.md",
+    "Manufacturing Module",
+    "New folder",
+    "Cloud ERP Overview/Pasted image 20230828064149.png",
+    "Cloud ERP Overview/Pasted image 20230828062634.png",
+    "Cloud ERP Overview/Pasted image 20230828062441.png",
+    "Cloud ERP Overview/Pasted image 20230828054629.png",
+    "Cloud ERP Overview/Pasted image 20230829070747.png",
+    "Cloud ERP Overview",
+    "End-to-End Business Processes for the Intelligent Enterprise",
     "SAP Cloud ERP Overview.md",
-    "SAP S4HANA Notes.md",
-    "Potential Modules.md"
+    "2023-08-27.md",
+    "SAP S4HANA Notes.md"
   ]
 }

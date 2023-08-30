@@ -484,7 +484,7 @@ Only available to SAP Customers who have a valid SAP user ID.
 - Lists of SAP's sub-processors which provide data processing services on behalf of SAP to its customers
 - Compliance evidence documents from SAP partners providing services to SAP (e.g. Hyperscaler infrastructure services).
 - Useful links and documents about Security and Data Protection & Privacy for SAP Products, Cloud Services, Professional Services and Support.
-### SAP Global Security Team
+## SAP Global Security Team
 ![[Pasted image 20230828062441.png]]
 #### Cyber Defense & Design
 This team is responsible for the baseline security and firewall configuration recommendations for all operating systems for the SAP customer base. This team follows up on security concerns and suspicious activity reports by customers.
@@ -494,8 +494,6 @@ Works with audit findings to align on best practices and regulatory requirements
 General security education for SAP customers
 #### Communications team
 Trains SAP employees on best practices and creates learning materials to support the SAP ecosystem
-
-
 ### Data Center Security
 ![[Pasted image 20230828062634.png]]
 SAP's cloud is designed with redundancy in mind to ensure customer SLA's are met.
@@ -544,7 +542,7 @@ TOMS are the measures designed by the Global Security Team
 The DPO manages the Data Protection and Privacy(DPP). This is a cross functional team who consists of attorneys, auditors, and technical experts that report into the DPO.
 ### GDPR Compliance
 Compliance is achieved through business processes so the standard for on-prem vs cloud deployments is consistent.
-Communication outside of the EU achieves compliance [standard contractual clauses(SCC's)](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en) SCC's are pre-approved data transmission standards from the European Commission 
+Communication outside of the EU achieves compliance [standard contractual clauses(SCC's)](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en) SCC's are pre-approved data transmission standards from the European Commission
 ## Best Practices for Secure Operations
 - Organization
 	- Employee Awareness
@@ -567,14 +565,13 @@ Communication outside of the EU achieves compliance [standard contractual clause
 	- Network Security
 	- Operating System & Database Security
 	- Client Security
-### SAP S/4HANA Cloud Starter System
+### SAP S/4HANA Cloud Starter System, public edition
 ![[Pasted image 20230828073337.png]]
 #### 3 System Landscape(3SL)
 - Development
-- Test
+- Quality
 - Production
-#### Private Cloud System Landscapes
-Used in Trial, Scoping, or Sandbox deployments. These are available to both private and public edition customers. These deployments are designed to be run on a provider like Microsoft Azure, Google Cloud, or AWS.
+The [SAP Cloud Appliance Library](https://community.sap.com/topics/cloud-appliance-library)(CAL) is a library for private edition customers. Used in Trial, Scoping, or Sandbox deployments. These are available to both private and public edition customers. These deployments are designed to be run on a provider like Microsoft Azure, Google Cloud, or AWS in 2-3 hours.
 ##### SAP S/4HANA Fully Activated Appliance
 An appliance is a compressed system image that can be rapidly extracted into a regular system instance while preserving everything that was configured for the appliance when it was developed. All standard supporting applications are also included.
 - SAP Best Practices Processes
@@ -587,3 +584,83 @@ An appliance is a compressed system image that can be rapidly extracted into a r
 ##### Enterprise Management Layer(EML) for SAP S/4HANA
 This is the successor technology to the *Model Company for Multinational Corporations* module. This tool is a tool for standardization and localization of deployments. SAP's Localization supports 43 local versions and 25 system languages.
 There is a group ledger that is the leading ledger for the corporation. There are four additional subledgers that handle the translation to meet local currency reporting and governmental requirements.
+#### SAP S/4HANA Cloud, private edition
+Private edition has a similar flow to the public edition with the added option for sandbox spaces.
+- Sandbox
+	- **New Implementations:** Canned deployments out of the SAP CAL or based on the existing customers system and mapping. The sandbox systems are used by SAP consultants to conduct fit-to-standard workshops which are meant to get business SME's up to speed in their required activities and document any configuration or extension requirements. These are then tracked in SAP Cloud ALM for lifecycle monitoring.
+	- **System Conversions:** Sandbox deployments are focused on reviewing a specific Workflow, Report, Interface, Conversion, Enhancement, and Forms (WRICEF).
+- Development
+	- **New Implementations:** fresh development system is deployed with SAP standard business process content, or as a blank system where customizing is done via the IMG (Implementation Guide).
+	- **System Conversions:** the customer's existing development system is converted to SAP S/4HANA Cloud, private edition based on the migration approach validated with the sandbox
+	There are two clients in the development environment. Items created or customized on the development client are available to the customization client as well as other development clients because when the changes are made to the development tenant they are tracked on a table that doesn't attribute them directly to one development object.
+	- Development Tenant (Client 080)
+	- Customizing Tenant (Client 100)
+- Quality
+	Changes are released from the development system to the quality system via the Transport Organizer SE09 Transaction
+	There are no differences between the development-to-test pipeline regardless of deployment scenario.
+- Production
+	Changes are released from the quality system to the production system via the Transport Organizer SE09 Transaction
+	- **New Implementations:** the configuration from the quality system is transported to the production system
+	- **System Conversions:** the customer's existing production system is converted to SAP S/4HANA Cloud, private edition, based on the migration approach validated in the sandbox, development, and quality systems.
+### Additional System Landscapes
+- Partner Shared Demo Environment (PDE)
+	Scripted-demo environment for SAP partners to model Intelligent Enterprise applications. Allows for Consultants to demo preconfigured modules to customers. Controlled access
+- Partner Test, Demo, and Development (TDD)
+	Sandbox demo space offered to SAP partners that uses the Central Business Configuration and Developer Extensibility like a private edition deployment
+- SAP Learning Hub System 
+	This is a training space for SAP customers with a Learning Hub Subscription. This system uses instanced deployments for student demos.
+- Enablement Sandbox
+	This is the free demo space for new SAP offerings. This sandbox is focused on new scope items from the latest release.
+	Access is granted for a week to demo and learn the new functionality via the Learning Hub (only available with Learning Hub subscription).
+## Discussing Support for the SAP S/4HANA Cloud Deployment Options
+### SAP for Me
+SAP Enterprise Support is the full-service support offering from SAP. This is entitled to the full support from SAP services.
+**SAP for Me** is the Learning-Management-System that is included with the SAP id and access to the learning system. This is also the system is for support tickets and license provisioning from the CBC.
+Included in SAP for Me there are a handful of preconfigured dashboards.
+- **Customer Success**
+    - Partners can manage their customers by analyzing their license portfolio, cloud consumption, upcoming renewals, and orders and contracts. Manage customer delivery such as cloud projects, certified consultants, and next generation cloud delivery migrations.
+- **Finance & Legal**
+    - Purchasers, controllers, and other related roles have multiple methods of reviewing their product portfolio from a financial perspective. Review your SAP orders, the licensed materials behind the orders, and the connection to the individual product. You can also view consumption metrics across all your cloud product licenses.
+- **Partner Solutions**
+    - Find enablement on how to build your own solutions, monitor the status of your developed solutions, and find your AIR key and links to register a new solution.
+- **Partnership**
+    - View your company and partnership details including Partner Tracks, contracts, sell & service authorizations, and grouping. In addition, you can find links to access key partner management apps and portals.
+- **Products & Portfolio**
+    - View your purchased SAP portfolio and its related products, find additional details in your product list like the number of related orders, systems, or licenses, and access links to additional information sources related to your product.
+- **Sales & Marketing**
+    - Partners can view their business plan, monitor your plan vs. actual revenue performance, view and manage end-to-end deal execution, and access sales apps.
+- **Services & Support**
+    - Review and submit maintenance and support cases across your company and find out information like planned upcoming maintenance events for your products.
+- **Systems & Provisioning**
+    - View a list of all cloud or on-premise systems related to a product, the current availability status of a system related to a product, and navigate directly to the Cloud Availability Center (CAC) for detailed status information for cloud systems.
+- **Users & Contacts**
+    - View a list of all SAP contacts that are available for a product or product portfolio, and view a list of contacts SAP is aware of in your company for a product or product order. You can also change the assignment of a contact in your company in relation to a product, and manage S-Users, P-Users, and SAP Universal ID (UID) users.
+### Responsibilities for Governance in Hybrid Landscapes
+![[Pasted image 20230829062706.png]]
+### Effective Governance in Hybrid Landscapes
+![[Pasted image 20230829064344.png]]
+SAP Recommendations:
+- Customer Center of Excellence (CCOE): Collaboration space for the business and IT organization to share processes
+- [SAP White Papers on Application Lifecycle Management](https://support.sap.com/en/alm/hybridALM.html)
+## Defining Release Upgrades for the SAP S/4HANA Cloud Deployment Options
+![[Pasted image 20230829065653.png]]
+SAP versioning is YYMM for major releases.
+CFD's are delivered on a monthly cadence YYMM.X where 'X' is a revision of the CFD.
+The _Activate New Features_ app is available in the Test system. This cannot be configured in the development system so any active development for CFD's must wait for the integration of the CFD into a major release so that they can be modified via the ABAP platform.
+### SAP S/4HANA Cloud, public edition Release Strategy
+SAP Cloud, public edition has two major releases a year. In addition to major releases there are also Continuous Feature Deliveries(CFDs) between releases for non-disruptive features that can be deployed with a low impact to the customer system.
+CFD's are activated in the "Activate New Features" Fiori application. CFD's will be automatically activated as part of the next major release if a customer does not opt to use them during their pre-release phase. Feedback for CFD's is registered in the SAP Influence Portal
+#### Release Assessment and Scope Dependency (RASD) Tool 2.0
+RASD is a tool for SAP public edition customers to conduct change management activities in advance of a planned release. This tool is configured based on the customer's active products and will highlight new and deprecated functionality for the next major release.
+### SAP S/4HANA Cloud, private edition Release Strategy
+![[Pasted image 20230829070747.png]]
+SAP Cloud, private edition follows the same release path as the On Premise releases.
+One annual release
+Non-disruptive features are released in the form of Feature Pack Stacks (FPS).
+Once there is a new major release, old releases will receive support in the form of Support Pack Stacks(SPS) until the end of the maintenance window after five years.
+As part of the "RISE with SAP" program, customers are entitled to one upgrade per year. SAP will execute the upgrade on behalf of the customer to their cloud instances. Planning, preparaiton, testing, and other non-technical activities are delegated to the customer to coordinate
+
+### New Feature Resources
+[SAP On Premise Releases](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE)
+[SAP Cloud, public edition Releases](https://help.sap.com/docs/SAP_S4HANA_CLOUD)
+[SAP Road Map Explorer](https://roadmaps.sap.com/welcome#/)
