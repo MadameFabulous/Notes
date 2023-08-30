@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -148,13 +149,13 @@
   },
   "active": "cb07df32be3c1d06",
   "lastOpenFiles": [
+    "Pasted image 20230830054216.png",
+    "End-to-End Business Processes for the Intelligent Enterprise/End-to-End Business Processes for the Intelligent Enterprise.md",
     "Pasted image 20230830070932.png",
     "Pasted image 20230830060604.png",
     "Cloud ERP Overview/SAP Cloud ERP Overview.md",
-    "End-to-End Business Processes for the Intelligent Enterprise/End-to-End Business Processes for the Intelligent Enterprise.md",
     "Pasted image 20230830054641.png",
     "Pasted image 20230830054607.png",
-    "Pasted image 20230830054216.png",
     "Pasted image 20230830054029.png",
     "Potential Modules.md",
     "Manufacturing Module/SAP S4HANA Manufacturing Module.md",
@@ -164,7 +165,6 @@
     "Cloud ERP Overview/Pasted image 20230828062634.png",
     "Cloud ERP Overview/Pasted image 20230828062441.png",
     "Cloud ERP Overview/Pasted image 20230828054629.png",
-    "Cloud ERP Overview/Pasted image 20230829070747.png",
     "Cloud ERP Overview",
     "End-to-End Business Processes for the Intelligent Enterprise",
     "SAP Cloud ERP Overview.md",
