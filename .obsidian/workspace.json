@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb07df32be3c1d06",
+  "active": "c5a3623d6712ca17",
   "lastOpenFiles": [
     "Pasted image 20230830054216.png",
     "End-to-End Business Processes for the Intelligent Enterprise/End-to-End Business Processes for the Intelligent Enterprise.md",
