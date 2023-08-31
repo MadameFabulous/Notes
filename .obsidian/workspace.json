@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c98cf61f53aff323",
+        "id": "6f210df9700f7e79",
         "type": "tabs",
         "children": [
           {
-            "id": "45f6d04943938885",
+            "id": "0046995e7fe44f16",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Cloud ERP Overview/SAP Cloud ERP Overview.md",
-                "mode": "source",
-                "source": false
+                "file": "Cloud ERP Overview/ABAP.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud ERP Overview/SAP Cloud ERP Overview.md",
+                "file": "Cloud ERP Overview/ABAP.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud ERP Overview/SAP Cloud ERP Overview.md",
+                "file": "Cloud ERP Overview/ABAP.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud ERP Overview/SAP Cloud ERP Overview.md"
+                "file": "Cloud ERP Overview/ABAP.png"
               }
             }
           }
@@ -146,23 +144,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45f6d04943938885",
+  "active": "0046995e7fe44f16",
   "lastOpenFiles": [
-    "Cloud ERP Overview/Pasted image 20230829070747.png.md",
+    "Manufacturing Module/Safety Stock.png",
+    "Manufacturing Module/SAP S4HANA Manufacturing Module.md",
+    "Manufacturing Module/Safety Stock Img.png",
+    "Manufacturing Module/Posting receipt relieves to inventory.png",
+    "Manufacturing Module/Good Reciept.png",
+    "Manufacturing Module/Post Goods Movement Txn.png",
+    "Manufacturing Module/Enter Time Ticket for Production Order.png",
+    "Manufacturing Module/Manage Production Orders.png",
+    "Manufacturing Module/Production Order Relief.png",
+    "Manufacturing Module/Pick materials.png",
+    "Manufacturing Module/Material Requirements.png",
+    "Potential Modules.md",
     "Cloud ERP Overview/SAP Cloud ERP Overview.md",
-    "Cloud ERP Overview/SAP On Prem Release Strategy.png",
-    "Cloud ERP Overview/Master Data Governance in Hybrid Landscapes.png",
-    "Cloud ERP Overview/Pasted image 20230831081925.png.md",
-    "Cloud ERP Overview/Public edition deployment pipeline.png",
-    "Cloud ERP Overview/SAP Cloud Banner.png",
-    "Cloud ERP Overview/ALM for Implementation.png",
-    "Cloud ERP Overview/ABAP.png",
-    "Cloud ERP Overview/Cloud ALM Native vs Open.png",
-    "Cloud ERP Overview/Pasted image 20230831101128.png",
-    "Cloud ERP Overview/Pasted image 20230831081925.png",
-    "Cloud ERP Overview/Pasted image 20230829070747.png",
-    "Cloud ERP Overview/Images",
-    "Cloud ERP Overview/New folder",
+    "Untitled.md",
     "Cloud ERP Overview/[Integration.md",
     "Cloud ERP Overview/[SAP.md",
     "End-to-End Business Processes for the Intelligent Enterprise/Introduction/End-to-End Business Processes for the Intelligent Enterprise.md",
@@ -177,8 +174,6 @@
     "End-to-End Business Processes for the Intelligent Enterprise/New folder",
     "End-to-End Business Processes for the Intelligent Enterprise/Record-to-Report/New Text Document.txt",
     "End-to-End Business Processes for the Intelligent Enterprise/Record-to-Report",
-    "Potential Modules.md",
-    "Manufacturing Module/SAP S4HANA Manufacturing Module.md",
     "Manufacturing Module",
     "New folder",
     "Cloud ERP Overview",
