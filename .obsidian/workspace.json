@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6f210df9700f7e79",
+        "id": "c98cf61f53aff323",
         "type": "tabs",
         "children": [
           {
-            "id": "4eecd9af0fe1f4e7",
+            "id": "45f6d04943938885",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Cloud ERP Overview/Pasted image 20230831102417.png"
+                "file": "Cloud ERP Overview/SAP Cloud ERP Overview.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud ERP Overview/Pasted image 20230831102417.png",
+                "file": "Cloud ERP Overview/SAP Cloud ERP Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud ERP Overview/Pasted image 20230831102417.png",
+                "file": "Cloud ERP Overview/SAP Cloud ERP Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud ERP Overview/Pasted image 20230831102417.png"
+                "file": "Cloud ERP Overview/SAP Cloud ERP Overview.md"
               }
             }
           }
@@ -144,20 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4eecd9af0fe1f4e7",
+  "active": "45f6d04943938885",
   "lastOpenFiles": [
+    "Cloud ERP Overview/Pasted image 20230829070747.png.md",
+    "Cloud ERP Overview/SAP Cloud ERP Overview.md",
+    "Cloud ERP Overview/SAP On Prem Release Strategy.png",
+    "Cloud ERP Overview/Master Data Governance in Hybrid Landscapes.png",
+    "Cloud ERP Overview/Pasted image 20230831081925.png.md",
+    "Cloud ERP Overview/Public edition deployment pipeline.png",
+    "Cloud ERP Overview/SAP Cloud Banner.png",
+    "Cloud ERP Overview/ALM for Implementation.png",
+    "Cloud ERP Overview/ABAP.png",
+    "Cloud ERP Overview/Cloud ALM Native vs Open.png",
     "Cloud ERP Overview/Pasted image 20230831101128.png",
     "Cloud ERP Overview/Pasted image 20230831081925.png",
     "Cloud ERP Overview/Pasted image 20230829070747.png",
-    "Cloud ERP Overview/SAP Cloud ERP Overview.md",
-    "Cloud ERP Overview/Test Automation Tool.png",
-    "Cloud ERP Overview/Private Edition Development Pipeline.png",
-    "Cloud ERP Overview/Public edition deployment pipeline.png",
-    "Cloud ERP Overview/ABAP.png",
-    "Cloud ERP Overview/Integration Monitoring Fiori.png",
-    "Cloud ERP Overview/SAP Solution Manager.png",
-    "Cloud ERP Overview/Data Services and Process Orchestration Modules.png",
-    "Cloud ERP Overview/SAP Integration Suite.png",
+    "Cloud ERP Overview/Images",
+    "Cloud ERP Overview/New folder",
     "Cloud ERP Overview/[Integration.md",
     "Cloud ERP Overview/[SAP.md",
     "End-to-End Business Processes for the Intelligent Enterprise/Introduction/End-to-End Business Processes for the Intelligent Enterprise.md",

@@ -1,5 +1,5 @@
 # SAP Cloud ERP
-![[Cloud ERP Overview/Pasted image 20230831081925.png]]
+![[Cloud ERP Overview/SAP Cloud Banner.png]]
 ## SAP S/4HANA Cloud Deployment- Public (Multi-tenant server)
   - Lowest cost, scaleable
   - Hinges on reliability
@@ -290,7 +290,7 @@ The Intelligent Enterprise Toolkit has four pillars.
   - Integration Advisor is a crowd-based(customer data trained?) tool to drive ease of use for B2B and A2A integrations
   - Artificial intelligence and machine learning are used to simplify the development of integration scenarios.
   Content Advisor Architecture
-  ![[Cloud ERP Overview/Cloud Platform Integration Diagram CPI.png]]
+  ![[Cloud ERP Overview/Cloud Platform Integration Diagram CPI Content Advisor.png]]
 ### [Integration Solution Advisor Methodology(ISA-M)]([Integration Solution Advisory Methodology (ISA-M): Define Integration Guidelines for Your Organization | SAP Blogs](https://blogs.sap.com/2019/02/24/integration-solution-advisory-methodology-isa-m-define-integration-guidelines-for-your-organization/))
 ![[Cloud ERP Overview/ISA-M Diagram.png]]
 
@@ -309,7 +309,7 @@ The Intelligent Enterprise Toolkit has four pillars.
   This is the timeline and breakout of skills and tools that already exists in the domains. It is a combination of domain location and integration style
 ## SAP Integration Suite
 Useful Links for Integrations:
-[Setup and Monitoring of Integration Scenarios (sap.com)](https://support.sap.com/en/alm/solution-manager/expert-portal/monitoring-of-integration-scenarios.html)
+[Setup and Monitoring of Integration Scenarios](https://support.sap.com/en/alm/solution-manager/expert-portal/monitoring-of-integration-scenarios.html)
 [SAP Integration Suite – Cloud Integration](https://support.sap.com/en/alm/solution-manager/expert-portal/public-cloud-operations/sap-cloud-platform-integration.html) 
 ![[Cloud ERP Overview/SAP Integration Suite.png]]
 
@@ -634,7 +634,7 @@ CFD's are activated in the "Activate New Features" Fiori application. CFD's will
 #### Release Assessment and Scope Dependency (RASD) Tool 2.0
 RASD is a tool for SAP public edition customers to conduct change management activities in advance of a planned release. This tool is configured based on the customer's active products and will highlight new and deprecated functionality for the next major release.
 ### SAP S/4HANA Cloud, private edition Release Strategy
-![[Pasted image 20230829070747.png]]
+![[Cloud ERP Overview/SAP On Prem Release Strategy.png]]
 SAP Cloud, private edition follows the same release path as the On Premise releases.
 One annual release
 Non-disruptive features are released in the form of Feature Pack Stacks (FPS).
