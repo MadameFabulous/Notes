@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6f210df9700f7e79",
+        "id": "5a695b81186008d3",
         "type": "tabs",
         "children": [
           {
-            "id": "0046995e7fe44f16",
+            "id": "beff25f67432d9d0",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Cloud ERP Overview/ABAP.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud ERP Overview/ABAP.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud ERP Overview/ABAP.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,17 +118,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cloud ERP Overview/ABAP.png"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,8 +138,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0046995e7fe44f16",
+  "active": "4a8359af486d2a98",
   "lastOpenFiles": [
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Potential Modules.md",
+    "Lab Notes/overthewire.bandit/Bandit.md",
+    "Lab Notes/overthewire.bandit/Level 0 SSH.png",
+    "Lab Notes/overthewire.bandit/Bandit-level-0 ssh.png",
+    "Cloud ERP Overview/ABAP.png",
+    "Lab Notes/overthewire.bandit/New Text Document.txt",
+    "Lab Notes/overthewire.bandit",
+    "Lab Notes/New folder",
+    "Lab Notes",
+    "New folder",
     "Manufacturing Module/Safety Stock.png",
     "Manufacturing Module/SAP S4HANA Manufacturing Module.md",
     "Manufacturing Module/Safety Stock Img.png",
@@ -154,10 +160,6 @@
     "Manufacturing Module/Post Goods Movement Txn.png",
     "Manufacturing Module/Enter Time Ticket for Production Order.png",
     "Manufacturing Module/Manage Production Orders.png",
-    "Manufacturing Module/Production Order Relief.png",
-    "Manufacturing Module/Pick materials.png",
-    "Manufacturing Module/Material Requirements.png",
-    "Potential Modules.md",
     "Cloud ERP Overview/SAP Cloud ERP Overview.md",
     "Untitled.md",
     "Cloud ERP Overview/[Integration.md",
@@ -175,9 +177,6 @@
     "End-to-End Business Processes for the Intelligent Enterprise/Record-to-Report/New Text Document.txt",
     "End-to-End Business Processes for the Intelligent Enterprise/Record-to-Report",
     "Manufacturing Module",
-    "New folder",
-    "Cloud ERP Overview",
-    "End-to-End Business Processes for the Intelligent Enterprise",
     "SAP Cloud ERP Overview.md",
     "2023-08-27.md",
     "SAP S4HANA Notes.md"
