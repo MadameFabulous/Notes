@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "a05612a9c330c16a",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a695b81186008d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "beff25f67432d9d0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ba48c8840c20a3dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf411b3544c31e8d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5a3623d6712ca17",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ae6e478bd850adb4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a3a86e179bc06570",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5f22ce416f68796c",
+    "type": "split",
+    "children": [
+      {
+        "id": "07973fdd85ea3257",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f0d641d6b33ef55",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "748996eea93283dd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "984bfc862edb4abe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4a8359af486d2a98",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4a8359af486d2a98",
+  "lastOpenFiles": [
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Potential Modules.md",
+    "Lab Notes/overthewire.bandit/Bandit.md",
+    "Lab Notes/overthewire.bandit/Level 0 SSH.png",
+    "Lab Notes/overthewire.bandit/Bandit-level-0 ssh.png",
+    "Cloud ERP Overview/ABAP.png",
+    "Lab Notes/overthewire.bandit/New Text Document.txt",
+    "Lab Notes/overthewire.bandit",
+    "Lab Notes/New folder",
+    "Lab Notes",
+    "New folder",
+    "Manufacturing Module/Safety Stock.png",
+    "Manufacturing Module/SAP S4HANA Manufacturing Module.md",
+    "Manufacturing Module/Safety Stock Img.png",
+    "Manufacturing Module/Posting receipt relieves to inventory.png",
+    "Manufacturing Module/Good Reciept.png",
+    "Manufacturing Module/Post Goods Movement Txn.png",
+    "Manufacturing Module/Enter Time Ticket for Production Order.png",
+    "Manufacturing Module/Manage Production Orders.png",
+    "Cloud ERP Overview/SAP Cloud ERP Overview.md",
+    "Untitled.md",
+    "Cloud ERP Overview/[Integration.md",
+    "Cloud ERP Overview/[SAP.md",
+    "End-to-End Business Processes for the Intelligent Enterprise/Introduction/End-to-End Business Processes for the Intelligent Enterprise.md",
+    "End-to-End Business Processes for the Intelligent Enterprise/Pasted image 20230831064203.png.md",
+    "End-to-End Business Processes for the Intelligent Enterprise/Pasted image 20230831062808.png.md",
+    "End-to-End Business Processes for the Intelligent Enterprise/Pasted image 20230831062657.png.md",
+    "End-to-End Business Processes for the Intelligent Enterprise/Pasted image 20230831054543.png.md",
+    "End-to-End Business Processes for the Intelligent Enterprise/Record-to-Report/Record-to-Report.md",
+    "End-to-End Business Processes for the Intelligent Enterprise/Pasted image 20230831051533.png.md",
+    "End-to-End Business Processes for the Intelligent Enterprise/End-to-End Business Processes for the Intelligent Enterprise.md",
+    "End-to-End Business Processes for the Intelligent Enterprise/Introduction",
+    "End-to-End Business Processes for the Intelligent Enterprise/New folder",
+    "End-to-End Business Processes for the Intelligent Enterprise/Record-to-Report/New Text Document.txt",
+    "End-to-End Business Processes for the Intelligent Enterprise/Record-to-Report",
+    "Manufacturing Module",
+    "SAP Cloud ERP Overview.md",
+    "2023-08-27.md",
+    "SAP S4HANA Notes.md"
+  ]
+}

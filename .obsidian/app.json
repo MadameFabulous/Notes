@@ -1,8 +1,6 @@
 {
-  "useMarkdownLinks": false,
   "alwaysUpdateLinks": true,
-  "newFileLocation": "current",
-  "newLinkFormat": "absolute",
-  "showUnsupportedFiles": true,
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "Private-Notes/Notes/Image Blob",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Private-Notes/Notes/Image Blob"
 }
