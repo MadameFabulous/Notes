@@ -1,13 +1,13 @@
-![[End-to-End Business Processes for the Intelligent Enterprise/Introduction/Business Process Map.png]]
+![[Business Process Map.png]]
 
-![[End-to-End Business Processes for the Intelligent Enterprise/Introduction/Business Process Alignment by LOB Process and Department.png]]
+![[Business Process Alignment by LOB Process and Department.png]]
 
-![[End-to-End Business Processes for the Intelligent Enterprise/Introduction/BTP Overview.png]]
+![[BTP Overview.png]]
 # Enterprise Structure
 International Financial Reporting Standards (IFRS 8) are the international accounting standards that govern how legal entities are structured.
 Regional standards get layered in below this, like General Accepted Accounting Standards (GAAP)
 IFRS 8 requires reporting breakouts by operational areas for the key financial figures.
-![[End-to-End Business Processes for the Intelligent Enterprise/Introduction/Enterprise Structures Diagram.png]]
+![[Enterprise Structures Diagram.png]]
 ## Client
 Highest hierarchical structure within an SAP. Represents a corporate group and is made up of system that contains master records and tables.
 ## Operating Concern
@@ -76,7 +76,7 @@ Used in the valuation of material and inventory accounts. This can be configured
 ## Sales Area
 The combination of sales organization, distribution channel, and division make up a unique "sales area". This ensures that distribution channels can be mapped by activities.
 ## Master Data and Enterprise Structure
-![[End-to-End Business Processes for the Intelligent Enterprise/Introduction/Master Data Integration - Data Flows Video Clip.png]]
+![[Master Data Integration - Data Flows Video Clip.png]]
 ### SAP Master Data Definition
 - Have all the essential information required to map processes in a system (Defined Process)
 - Remain unchanged over a long period
@@ -97,10 +97,10 @@ The combination of sales organization, distribution channel, and division make u
 - Create production order
 
 Standard data elements, broken out by site off of the master data record.
-![[End-to-End Business Processes for the Intelligent Enterprise/Introduction/Master Data Record and Enterprise Structures Video.png]]
+![[Master Data Record and Enterprise Structures Video.png]]
 # SAP Activate Methodology with Best Practices 
 ## SAP Activate Roadmap Viewer
-![[End-to-End Business Processes for the Intelligent Enterprise/Introduction/Activate Methodology (from Record to Report).png]]
+![[Activate Methodology (from Record to Report).png]]
 	SAP Activate is the implementation framework for all kind of SAP projects. It simplifies and accelerates new implementation, system conversion or landscape transformation of SAP Solutions.
 	SAP Best Practices are part of SAP Activate
 [Activate Roadmap Viewer](https://go.support.sap.com/roadmapviewer/)

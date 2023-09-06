@@ -13,16 +13,16 @@ Strategy
 Planning Strategy 82 - Assembly Processing
 
 Modes
-![[Manufacturing Module/Change Material.png]]
+![[Change Material.png]]
 
 Mode 1 - Backward Consumption
 The customer requirement consumes planned independent requirements that come before it
-![[Manufacturing Module/Backwards Consumption.png]]
+![[Backwards Consumption.png]]
 Mode 2 - Backward and Forward Consumption
 Consumes past requirements before forward requirements
 Mode 3 - Forward Consumption
 The customer requirement consumes planned independent requirements that come after it
-![[Manufacturing Module/Forward Consumption.png]]
+![[Forward Consumption.png]]
 Mode 4 - Backward and Forward Consumption
 Consumes future requirements before past requirements
 Mode 5 - Period Specific Consumption
@@ -42,45 +42,45 @@ Better suited for B/C Stock types with historical data at steady state
 - The replenishment of the requested inventory must be ensured to avoid stockouts.
 - The replenishment lead time for procurement is known and remains constant.
 - ROP is considered consumption based planning
-![[Manufacturing Module/ROP Sawtooth.png]]
+![[ROP Sawtooth.png]]
 
 # MRP Process Steps
 ## BOM Explosion & Backward Scheduling
 ## BOM Explosion and Multilevel Backward Scheduling
 Backwards scheduling date is based on the requirement date of the finished product which is driven by the sales order.
-![[Manufacturing Module/BOM Explosion and Multilevel Backward Scheduling.png]]
+![[BOM Explosion and Multilevel Backward Scheduling.png]]
 
 ## Second Step of the MRP Process – Net Requirements Calculation and Lot Sizing
 
 Lot sizing, and rescheduling horizon considered and checked against safety stock and requirements 
-![[Manufacturing Module/Safety Stock.png]]
+![[Safety Stock.png]]
 ## Third Step of the MRP Process – Procurement Types
-![[Manufacturing Module/Procurement Types.png]]
+![[Procurement Types.png]]
 Type E: In-house production
 Type F: External Procurement
 Type X: Both Procurement Types
 
 ## Fourth Step of the MRP Process – Scheduling
-![[Manufacturing Module/MRP Scheduling.png]]
+![[MRP Scheduling.png]]
 
 Determination of Basic Dates for Planned Orders
 Milestone based ordering dictated by Master Material File
 Opening Period - Order Placement Time
 In-house Production time - Sum total of operations and internal lead times
 Lead Time Scheduling and Capacity Planning
-![[Manufacturing Module/Planned Order MRP.png]]
+![[Planned Order MRP.png]]
 
 ## MRP Live
-![[Manufacturing Module/pMRP Settings.png]]
+![[pMRP Settings.png]]
 
 pMRP - Predictive MRP
-![[Manufacturing Module/pMRP FLow.png]]
+![[pMRP FLow.png]]
 
-![[Manufacturing Module/MRP Planned.png]]
+![[MRP Planned.png]]
 ## Production Order Data Elements
-![[Manufacturing Module/Production Order Data Elements.png]]
+![[Production Order Data Elements.png]]
 
-![[Manufacturing Module/Production Order Header.png]]
+![[Production Order Header.png]]
 
 ### Production Order Header - Operations
 Work Center Number
@@ -100,5 +100,5 @@ Order Processing automation. Rework etc
 ##### Confirmations
 Final recording of operations data 
 # Production Order Life Cycle
-![[Manufacturing Module/Production Order Lifecycle.png]]
+![[Production Order Lifecycle.png]]
 

@@ -4,12 +4,12 @@ Pick Up here Tomorrow
 
 
 
-![[End-to-End Business Processes for the Intelligent Enterprise/Record-to-Report/FI and CO Flows - Video - identifying-the-areas-of-financial-and-management-accounting_.png]]
+![[FI and CO Flows - Video - identifying-the-areas-of-financial-and-management-accounting_.png]]
 # Accounting Definitions
 ![[FI vs CO Expenses and Income.png]]
 ## Financial Accounting(FI)
 Financial Accounting itself consists of different areas: The General Ledger (G/L) and various subledgers. The goal of FI is to manage expenses and income.
-![[End-to-End Business Processes for the Intelligent Enterprise/Record-to-Report/FI - You are here diagram for BTP.png]]
+![[FI - You are here diagram for BTP.png]]
 ## Managerial Accounting(CO)
 Short for Controlling. Specifically accounting for the costs and revenues.
 

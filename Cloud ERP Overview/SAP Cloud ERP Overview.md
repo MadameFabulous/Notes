@@ -1,5 +1,5 @@
 # SAP Cloud ERP
-![[Cloud ERP Overview/SAP Cloud Banner.png]]
+![[SAP Cloud Banner.png]]
 ## SAP S/4HANA Cloud Deployment- Public (Multi-tenant server)
   - Lowest cost, scaleable
   - Hinges on reliability
@@ -53,13 +53,13 @@
 - Inter-company Transactions Defined Early
 - Reporting Considerations and aggregation
 
-![[Cloud ERP Overview/SAP Cloud Multi System Private Edition Master System with Public Subsidiaries.png]]
+![[SAP Cloud Multi System Private Edition Master System with Public Subsidiaries.png]]
 
 A single system of record is maintained that is responsible for the higher order functions of the ERP systems. This in turn frees up the Tier 2 ERP deployments for localization and specialized processes.
 
 This also had additional benefits when the business engages in significant M&A Activity or planned divestiture 
 
-![[Cloud ERP Overview/SAP Systems with External Vendors.png]]
+![[SAP Systems with External Vendors.png]]
 ### Headquarter and Subsidiary
 - HQ runs a highly customized instance that is tailored to accept the data from the subsidiaries
 - Subsidiaries all run SAP Public Cloud and have standardized data architecture
@@ -71,9 +71,9 @@ This also had additional benefits when the business engages in significant M&A A
 - HQ runs a highly customized instance that is tailored to accept the data from a single cloud instance
 - Cloud system is offered to vendors and partners, can be tailored to hyper-automated tasks at low risk to the continuity of the business
 ## Intelligent Sustainable Enterprise
-![[Cloud ERP Overview/Business Processes and BTP.png]]
+![[Business Processes and BTP.png]]
 
-![[Cloud ERP Overview/BTP, Applications, and Process.png]]
+![[BTP, Applications, and Process.png]]
 
 - Lead to Cash - Revenue and CX for Order to Cash
 - Design to Operate - Engineering to Manufacturing
@@ -91,12 +91,12 @@ This also had additional benefits when the business engages in significant M&A A
 - Coordinated Lifecycle Management
 - One Inbox & Workflow Management
 ### Sustainability Framework
-![[Cloud ERP Overview/Sustainability Framework Pic.png]]
+![[Sustainability Framework Pic.png]]
 ### Intelligent Enterprise Suite Qualities
 As enterprises have become increasingly automated they increase the proportion of labor that is delegated to high value tasks
-![[Cloud ERP Overview/Intelligent Enterprise Value Pipeline Breakdown.png]]
+![[Intelligent Enterprise Value Pipeline Breakdown.png]]
 ### "The Experience Economy"
-![[Cloud ERP Overview/Experience Economy - X and O data with Intelligence.png]]
+![[Experience Economy - X and O data with Intelligence.png]]
 #### X Data
 
 - SAP Qualtrics Experience Management is the SAP product
@@ -117,9 +117,9 @@ As enterprises have become increasingly automated they increase the proportion o
 - Robotic Process Automation
 - Internet of Things
 ## SAP GROW & SAP RISE
-![[Cloud ERP Overview/Grow and Rise with SAP.png]]
+![[Grow and Rise with SAP.png]]
 #### SAP Grow with SAP S/4HANA Cloud, public edition
-![[Cloud ERP Overview/Grow Public Edition.png]]
+![[Grow Public Edition.png]]
 Base Customers have access to the basic tools for process automation and reporting
 More tailored tools and the ability to customize your deployment is limited to premium users of SAP Cloud, public
 Although access to BTP tools is limited, customers get credits proportional to their Annual Contract Value(ACV)
@@ -136,12 +136,12 @@ SAP Grow offers a suite of products for midsized enterprises
 Cloud Platform Enterprise Agreement(CPEA) credits are used to consume BTP services.
 Credits have a baseline free value that is meant to allow customers to demo the BTP without commitment. Additional Credits can be purchased(Imagine that, they want your money!). Credits allow for demo usage of the BTP services without a firmed license.
 CPEA Licensing is a commitment to buy the credits for the duration of the contract. There's an annual commitment contract for the BTP services
-![[Cloud ERP Overview/BTP and Private On Prem.png]] 
+![[BTP and Private On Prem.png]] 
 Private Edition CPEA Credit Usage
 - CPEA Credits for Private Edition customers can be used on SAP Build
 - CPEA Credits can be used on other SAP Products like [Signavio]([SAP Signavio | The Only All-in-One Business Process Software](https://www.signavio.com/))
 ## SAP BTP Build
-![[Cloud ERP Overview/SAP Build for Private Onprem.png]]
+![[SAP Build for Private Onprem.png]]
 Low-code solution that allows for extension and automation of S/4HANA
 ### [SAP Build Apps]([SAP Build Apps | AppGyver | Visual Low-Code App Builder](https://www.sap.com/products/technology-platform/low-code-app-builder.html))
 No-code solution with drag-and-drop development. Built out from SAP AppGyver and other SAP technologies.
@@ -152,21 +152,21 @@ Formerly SAP Launchpad service, Provides the tools for a traditional development
 ### [SAP Mobile Start App]([SAP Mobile Start | SAP Community](https://community.sap.com/topics/mobile-experience/start))
 Mobile platform targeted at iOS and Android devices. Integrates with SAP Task Center for SAP Workflow tasks. This replaces the Fiori Client for Mobile. 
 ### [SAP Baseline Activation Service]([An Introduction to Baseline Activation Service for SAP S/4HANA Cloud | SAP Blogs](https://blogs.sap.com/2023/03/14/an-introduction-to-baseline-activation-service-for-sap-s-4hana-cloud/))
-![[Cloud ERP Overview/Baseline Activation Service.png]]
+![[Baseline Activation Service.png]]
 Instanced deployments of SAP meant to help customers align on best practices. These environments can be configured and populated with sample data from existing systems. In turn these can be stood up as production environments. There is a central system that handles the predefined scope of the business.
 
 > The **predefined scope** is a selection of **Finance-led ERP business processes**, which are already used by the majority of our customers. Finance-led ERP covers core processes in the Finance, Sales, and Procurement lines of business with **one company** and **one legal entity**.
 
 As part of the Baseline Activation Service, SAP maintains a three-system deployment of the SAP instance.
 ### SAP Signavio
-![[Cloud ERP Overview/Signavio.png]]
+![[Signavio.png]]
 Included in the premium RISE with SAP package
 Signavio is a set of prebuilt reports that draw upon the standard data structures of SAP. Over 300 KPI's included although I'm unclear whether the KPI's are preconfigured to draw from the right data sources or if it's meant to be a global benchmarking tool.
 ###### SAP Signavio Process Manager & Process Collaboration Hub
 Collaborative platform for engaging with Signavio across the business.
 ### Digital Discovery Assessment
 Part of the Sales process as a discernment step for right-sizing the solution
-![[Cloud ERP Overview/Digital Discovery Assessment Process Overview.png]]
+![[Digital Discovery Assessment Process Overview.png]]
 1. Supply Chain of Selling App
    Net New or Existing Customer
    Greenfield Deployment (Conversion automatically routes to Private Edition)
@@ -184,7 +184,7 @@ Part of the Sales process as a discernment step for right-sizing the solution
    Private customers also have the option of the Enterprise Management Layer which is preconfigured on best practices
 5. Digital Discovery Assessment Report
 ## [ SAP Activate Implementation Methodology]([Roadmap Viewer (sap.com)](https://go.support.sap.com/roadmapviewer/))
-![[End-to-End Business Processes for the Intelligent Enterprise/Introduction/Activate Methodology (from Record to Report).png]]
+![[Activate Methodology (from Record to Report).png]]
 The Activate methodology is SAP's framework for implementation success. This is a canned set of project phases, tasks, and deliverables that will serve as guard rails and goalposts for the implementation team inside the business.
 The Roadmap Viewer is structured with the following elements
 - **Phases**: stages of the project, including Discover, Prepare, Explore, Realize, Deploy, and Run. At the end of each phase, a quality gate exists to verify the completion of the deliverables.
@@ -202,13 +202,13 @@ Best Practice Explorer items include the following data
 - **Set-up Instructions:** A guide to the steps required to set up any integrations required for the business process to function correctly. The setup guide must be completed prior to the test script.
 ### SAP Application Lifecycle Management
 Included for all SAP cloud offerings regardless of edition. Contingent on an Enterprise Support Agreement
-![[Cloud ERP Overview/Cloud ALM Native vs Open.png]]
+![[Cloud ALM Native vs Open.png]]
 #### SAP ALM for Implementation
 This is a preconfigured guided workspace tailored to the environment. It is based on the Activate methodology and pipes tasks, deliverables, and timelines to the analyst
-![[Cloud ERP Overview/ALM for Implementation.png]]
+![[ALM for Implementation.png]]
 #### SAP ALM for Operations
 Steady-state tool focused on quality and execution. Similar feedback cycle to DMAIC but with Automation tacked onto the end.
-![[Cloud ERP Overview/ALM Detect-diagnose-correcct-automate.png]]
+![[ALM Detect-diagnose-correcct-automate.png]]
 ## [SAP Solution Manager]([SAP Solution Manager](https://support.sap.com/en/alm/solution-manager.html))
 Only for private edition customers. Includes SAP Focused Build and Focused Insights as part of the package.
 Focused Build is tied to the SAP Solution Manager 7.2 application which has an end-of-life date of 2027 and an extended support window of 2030.
@@ -247,7 +247,7 @@ Signavio picks up where the Solution Builder left off and breaks out the selecte
 SAP Consultants are responsible for the questionnaire that is conducted as part of the sales pipeline
 Client or Implementation Consultant is responsible for tasks and customization that is required for their deployment
 ### System Conversion for Legacy Systems
-![[Cloud ERP Overview/Prepare-Realize phase of System Conversion.png]]
+![[Prepare-Realize phase of System Conversion.png]]
 SAP Consultants handle configurations of technical items like Client 000 (Admin Client) that cannot be prepared by the client
 #### Client Responsibilities
 - SAP Readiness Check
@@ -272,7 +272,7 @@ The Custom Code Migration Tool checks against a list of simplifications. This is
 ##### Software Update Manager(SUM)
 The SUM manages the migration of mapped data and custom applications. For larger legacy systems the Silent Data Migration Infrastructure (SMDI)
 ### Fiori Launchpad Configuration for Private Cloud
-![[Cloud ERP Overview/Fiori Launchpad Configuration.png]]
+![[Fiori Launchpad Configuration.png]]
 For all implementation paths Fiori Launchpad is configured separately from the applications that are managed. Public Edition comes with a preconfigured set of suggested applications. Private Edition customers will have a set of Fiori applications identified as part of the Readiness Check step of the deployment.
 #### Deployment Options for Fiori Launchpad
 Client 100 is deployed with the Fiori launchpad for New implementations by the SAP consultants. This serves as the template for the business and is configured by SAP Consultants as identified during the readiness check.
@@ -290,11 +290,11 @@ The Intelligent Enterprise Toolkit has four pillars.
   - Integration Advisor is a crowd-based(customer data trained?) tool to drive ease of use for B2B and A2A integrations
   - Artificial intelligence and machine learning are used to simplify the development of integration scenarios.
   Content Advisor Architecture
-  ![[Cloud ERP Overview/Cloud Platform Integration Diagram CPI Content Advisor.png]]
+  ![[Cloud Platform Integration Diagram CPI Content Advisor.png]]
 ### [Integration Solution Advisor Methodology(ISA-M)]([Integration Solution Advisory Methodology (ISA-M): Define Integration Guidelines for Your Organization | SAP Blogs](https://blogs.sap.com/2019/02/24/integration-solution-advisory-methodology-isa-m-define-integration-guidelines-for-your-organization/))
-![[Cloud ERP Overview/ISA-M Diagram.png]]
+![[ISA-M Diagram.png]]
 
-![[Cloud ERP Overview/ISA-M Components.png]]
+![[ISA-M Components.png]]
 ### Components of ISA-M
 - Integration Domains - Entry Points
   - On-premise-to-cloud
@@ -311,7 +311,7 @@ The Intelligent Enterprise Toolkit has four pillars.
 Useful Links for Integrations:
 [Setup and Monitoring of Integration Scenarios](https://support.sap.com/en/alm/solution-manager/expert-portal/monitoring-of-integration-scenarios.html)
 [SAP Integration Suite – Cloud Integration](https://support.sap.com/en/alm/solution-manager/expert-portal/public-cloud-operations/sap-cloud-platform-integration.html) 
-![[Cloud ERP Overview/SAP Integration Suite.png]]
+![[SAP Integration Suite.png]]
 
 The **SAP Integration Suite** offers a modular set of integration services that help manage each pillar of the ecosystem.
 - Process integrations (application to application)
@@ -321,7 +321,7 @@ The **SAP Integration Suite** offers a modular set of integration services tha
 - Data integration and pipelines to support data use in other applications as well as the SAP Data Intelligence platform
 - B2B integrations to integrate with suppliers, and governmental entities across the digital ecosystem
 Key enablers of the Integration Suite are the SAP Data Services and Process Orchestration modules
-![[Cloud ERP Overview/Data Services and Process Orchestration Modules.png]]
+![[Data Services and Process Orchestration Modules.png]]
 ### SAP Cloud Connector Integration
 Works via a reverse invoke proxy component
 - Propogate identity security across systems to ensure consistency for users in multi deployment environments
@@ -335,7 +335,7 @@ Closes gap between business and IT during problem resolution process (technical 
 - Search and track single messages based on exposed business context attributes e.g. order numbers
 - Operation automation to trigger operation flows context sensitivity for automated correction of problems
 ### Integration Monitoring with SAP Solution Manager
-![[Cloud ERP Overview/SAP Solution Manager.png]]
+![[SAP Solution Manager.png]]
 Similar to the Integration Monitor, the Solution Manager integrates the legacy SAP metric platforms (Interface Channel Monitoring, Connection Monitoring, and Interface Monitoring metrics from Business Process Monitoring).
 This tool is for troubleshooting mission critical components 
 ### SAP Solution Manager Focused Run
@@ -353,7 +353,7 @@ Using the dashboard, you can:
 - Analyze the status of processed messages.
 - Get the count of the deployed artifacts.
 ### Integration Monitoring with SAP Fiori Apps
-![[Cloud ERP Overview/Integration Monitoring Fiori.png]]
+![[Integration Monitoring Fiori.png]]
 All-in-one platform for developers and interface development, mapping, etc.
 Enables business users to reduce the time needed for error handling because they are able to monitor interfaces and troubleshoot issues without IT.
 ## Extending the SAP S/4HANA Cloud Deployment Options
@@ -363,20 +363,20 @@ Enables business users to reduce the time needed for error handling because they
 Key User extensibility is driven by the Fiori launchpad and the customization in the UI and configurations
 ##### Developer in-app extensibility
 Enables developers to create custom ABAP code and partner extensions in an upgrade-stable, cloud-ready programming model.
-![[Cloud ERP Overview/ABAP.png]]
+![[ABAP.png]]
 ##### Classic in-app extensibility
 Custom code, modifying the SAP codebase. Can hinder or delay upgrade and merits more testing and consumes more IT resources to maintain
 #### Side-by-Side Extensibility
 This takes traditional Extensibility and manages it in SAP BTP. This decouples the extension from the code base.
 ### Transport Extensions for Public Cloud
 #### Public edition
-![[Cloud ERP Overview/Public edition deployment pipeline.png]]
+![[Public edition deployment pipeline.png]]
 Transport starts in the SAP Central Business Configuration. Once the Activation activities and configuration activities there will be a prompt for a customizing request. These are exported to the test system via the Fiori "Export Customizing Transports" application this starts the pipeline for the changes to the test system.
 The Customizing Tenant of the development environment is the engine responsible for the transports but also defines workflows, teams, and responsibilities related to the maintenance of the extension.
 The Development Tenant (Client 080) is where Workbench requests are logged and released from. These are a second input to the SAP Transport Organizer view This takes the extensibility and bundles it to client 100 where it can be carried to the test and production system
 The "Import Collection App" bundles the developer extensibility, business configuration, and key user extensibility into a single package for the test system. This can then be carried forward to production once testing has been completed
 #### Private edition
-![[Cloud ERP Overview/Private Edition Development Pipeline.png]]
+![[Private Edition Development Pipeline.png]]
 The Adaptation Transport Organizer(ATO) is responsible for the management of key user extensions. This is required to create packages and register extensions for transport.
 The Fiori Configure Software Packages app is responsible for certain change management activities if required for the software package.
 The Register Extensions for Transport app feels very similar. Unable to discern the difference a this point in my training.
@@ -393,7 +393,7 @@ Creating a new custom migration object with the modeler is only supported for pr
 ### Data Migration in System Conversions
 Database migration and custom code migration occur during the technical conversion process when an SAP ERP or SAP S/4HANA on premise system is converted to SAP S/4HANA Cloud, private edition.
 ## Testing Business Processes in the SAP S/4HANA Cloud Deployment Options
-![[Cloud ERP Overview/Test Automation Tool.png]]
+![[Test Automation Tool.png]]
 ### Test Automation Tool in Public Cloud
 300 pre-delivered test automates based on SAP Best Practices business processes, and supports customization.
 Fiori's Three Testing Automation Tools
@@ -425,7 +425,7 @@ Phases of testing via the Automation Tool
   - Drill-down for details of plan execution
 ## Describing Security for the SAP S/4HANA Cloud Deployment Options
 ### Four Pillars of the SAP Cloud Secure Strategy
-![[Cloud ERP Overview/Four Pillars of SAP Cloud Security.png]]
+![[Four Pillars of SAP Cloud Security.png]]
 - Security Standards Management
 	- Policy-Based Guidance
 	- Compliance Support Through Integrated Management System
@@ -466,7 +466,7 @@ Only available to SAP Customers who have a valid SAP user ID.
 - Compliance evidence documents from SAP partners providing services to SAP (e.g. Hyperscaler infrastructure services).
 - Useful links and documents about Security and Data Protection & Privacy for SAP Products, Cloud Services, Professional Services and Support.
 ## SAP Global Security Team
-![[Cloud ERP Overview/SAP Global Security Team.png]]
+![[SAP Global Security Team.png]]
 #### Cyber Defense & Design
 This team is responsible for the baseline security and firewall configuration recommendations for all operating systems for the SAP customer base. This team follows up on security concerns and suspicious activity reports by customers.
 #### Security Risk & Compliance
@@ -476,7 +476,7 @@ General security education for SAP customers
 #### Communications team
 Trains SAP employees on best practices and creates learning materials to support the SAP ecosystem
 ### Data Center Security
-![[Cloud ERP Overview/Data Center Security.png]]
+![[Data Center Security.png]]
 SAP's cloud is designed with redundancy in mind to ensure customer SLA's are met.
 SAP Data Center Security Features
 #### Physical Features
@@ -493,7 +493,7 @@ SAP Data Center Security Features
 - Multiple firewalls that divide the network into protected segments and shield the internal network from unauthorized Internet traffic.
 - Third-party audits performed throughout the year to support early detection of any newly introduced security issues.
 ### Hybrid Security with Enterprise Security Services
-![[Cloud ERP Overview/Hybrid Security with Enterprise Security Services.png]]
+![[Hybrid Security with Enterprise Security Services.png]]
 #### Components of Enterprise Security Services:
 - **Cloud Identity Services** address identity and access management in the cloud. They can be used across the SAP cloud solution portfolio, and they include the Identity Authentication and Identity Provisioning services as a part of SAP Cloud Identity Services.
 - **Secure Development Services** help support the development of secure applications on the Business Technology Platform. These services, such as SAP Cloud Application Programming Model and the Cloud Connector, enable developers to build secure enterprise business applications.
@@ -547,7 +547,7 @@ Communication outside of the EU achieves compliance [standard contractual clause
 	- Operating System & Database Security
 	- Client Security
 ### SAP S/4HANA Cloud Starter System, public edition
-![[Cloud ERP Overview/SAP Cloud Starter System Starter Public.png]]
+![[SAP Cloud Starter System Starter Public.png]]
 #### 3 System Landscape(3SL)
 - Development
 - Quality
@@ -617,14 +617,14 @@ Included in SAP for Me there are a handful of preconfigured dashboards.
 - **Users & Contacts**
     - View a list of all SAP contacts that are available for a product or product portfolio, and view a list of contacts SAP is aware of in your company for a product or product order. You can also change the assignment of a contact in your company in relation to a product, and manage S-Users, P-Users, and SAP Universal ID (UID) users.
 ### Responsibilities for Governance in Hybrid Landscapes
-![[Cloud ERP Overview/Responsibilities for Master Data Governance in a Hybrid Landscape.png]]
+![[Responsibilities for Master Data Governance in a Hybrid Landscape.png]]
 ### Effective Governance in Hybrid Landscapes
-![[Cloud ERP Overview/Master Data Governance in Hybrid Landscapes.png]]
+![[Master Data Governance in Hybrid Landscapes.png]]
 SAP Recommendations:
 - Customer Center of Excellence (CCOE): Collaboration space for the business and IT organization to share processes
 - [SAP White Papers on Application Lifecycle Management](https://support.sap.com/en/alm/hybridALM.html)
 ## Defining Release Upgrades for the SAP S/4HANA Cloud Deployment Options
-![[Cloud ERP Overview/SAP Release Nomenclature.png]]
+![[SAP Release Nomenclature.png]]
 SAP versioning is YYMM for major releases.
 CFD's are delivered on a monthly cadence YYMM.X where 'X' is a revision of the CFD.
 The _Activate New Features_ app is available in the Test system. This cannot be configured in the development system so any active development for CFD's must wait for the integration of the CFD into a major release so that they can be modified via the ABAP platform.
@@ -634,7 +634,7 @@ CFD's are activated in the "Activate New Features" Fiori application. CFD's will
 #### Release Assessment and Scope Dependency (RASD) Tool 2.0
 RASD is a tool for SAP public edition customers to conduct change management activities in advance of a planned release. This tool is configured based on the customer's active products and will highlight new and deprecated functionality for the next major release.
 ### SAP S/4HANA Cloud, private edition Release Strategy
-![[Cloud ERP Overview/SAP On Prem Release Strategy.png]]
+![[SAP On Prem Release Strategy.png]]
 SAP Cloud, private edition follows the same release path as the On Premise releases.
 One annual release
 Non-disruptive features are released in the form of Feature Pack Stacks (FPS).
