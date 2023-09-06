@@ -77,19 +77,6 @@ pMRP - Predictive MRP
 ![[Manufacturing Module/pMRP FLow.png]]
 
 ![[Manufacturing Module/MRP Planned.png]]
-
-![[Manufacturing Module/Monitor Material Coverage.png]]
-
-
-## Maintain PIR's
-Select Material
-![[Manufacturing Module/Maintain PIRs.png]]
-Enter a Forecast per week for the material, save the record. Then turn the PIR to active "Version is Active" flag.
-![[Manufacturing Module/Maintain PIR with Forecast.png]]
-## Stock Requirements List
-![[Manufacturing Module/Stock Requirement List.png]]
-Queries based on material, shows availability of inventory. Pre MRP Run PIR's show without any planned orders. After MRP runs the materials are met with planned orders to cover the PIR's.
-![[Manufacturing Module/Stock Requirements List.png]]
 ## Production Order Data Elements
 ![[Manufacturing Module/Production Order Data Elements.png]]
 
@@ -115,41 +102,3 @@ Final recording of operations data
 # Production Order Life Cycle
 ![[Manufacturing Module/Production Order Lifecycle.png]]
 
-## Release Production Order Process
-![[Manufacturing Module/Release Production Order Process.png]]
-
-Red in the "Coverage" field indicates the component production orders haven't been confirmed
-![[Manufacturing Module/Coverage.png]]
-
-Releasing the Production Order Header will release the component shop orders and confirm their quantities.
-![[Manufacturing Module/Manage Production Orders Confirmed.png]]
-
-## Pick Components for Production Orders
-![[Manufacturing Module/Pick Components for Production Orders.png]]
-
-Header Level Search
-![[Manufacturing Module/Production Order Header Level.png]]
-
-![[Manufacturing Module/Material Requirements.png]]
-
-Pick List can be modified on the Picking screen to reflect any qty or location adjustments
-![[Manufacturing Module/Pick materials.png]]
-Once the qty and locations are correct the transaction is posted to the production order
-## Production Order Relief
-![[Manufacturing Module/Production Order Relief.png]]
-
-## Manage Production Operations
-![[Manufacturing Module/Manage Production Orders.png]]
-
-This screen flows into "Enter Time Ticket for Production Order"
-![[Manufacturing Module/Enter Time Ticket for Production Order.png]]
-Filter Values are available to search for the operation to be claimed
-
-## Post Goods Movement
-![[Manufacturing Module/Post Goods Movement Txn.png]]
-
-Select 'Goods Receipt' and filter to the Order Number
-![[Manufacturing Module/Good Reciept.png]]
-
-Posting the goods receipt will relieve the Production Order to inventory
-![[Manufacturing Module/Posting receipt relieves to inventory.png]]

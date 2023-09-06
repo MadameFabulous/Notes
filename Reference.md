@@ -1,3 +1,5 @@
+# SAP Documentation
+[SAP S/4HANA | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8308e6d301d54584a33cd04a9861bc52/2c0e7c571fbeb576e10000000a4450e5.html)
 # Potential Modules
 
 [Learning Journies](https://learning.sap.com/learning-journey)
