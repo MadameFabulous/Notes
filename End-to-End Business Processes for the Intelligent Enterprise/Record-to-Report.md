@@ -1,9 +1,3 @@
-Pick Up here Tomorrow
-![[Pasted image 20230906075440.png]]
-
-
-
-
 ![[FI and CO Flows - Video - identifying-the-areas-of-financial-and-management-accounting_.png]]
 # Accounting Definitions
 ![[FI vs CO Expenses and Income.png]]
@@ -31,6 +25,10 @@ Company Code Assignment Tab
 - Control Data Tab
 	- Account Currency
 	- "Only Balance in Local Currency"
+	- Reconciliation Account Type
+		- K - Vendor
+		- D - Customer
+		- A - Assets
 - Create/Bank/Interest Tab
 	Additional controls for the behavior of the account can be found here. An Example is the "Post Automatically Only" field which controls whether an account can be use for manual posting transactions
 #### Account Type
@@ -116,11 +114,39 @@ G/L Accounts Range 90000000-99999999
 	- Amount
 	- Debit and Credit Assignments
 
-## Managing Accounts Payable
-
 ### Business Partner
-The Business Partner is the SAP term for vendor or client. These are maintained as master data on the client which is shared all users of the SAP ecosystem.
+The Business Partner is the SAP term for a person or legal entity. These are maintained as master data on the client which is shared all users of the SAP ecosystem.
 
 Company Code views of the Business Partners allow for specific configurations for localities like VAT's, payment methos, and banks.
 
-### 
+## General Business Partner Configurations
+- Customer
+- Supplier
+- FI Customer - Generates Accounts Receivables
+- FI Vendor - Generates Accounts Payables
+### Business Partner Basic Data
+- Business Partner Category
+	- Person
+	- Organization
+- Grouping
+	- Externally
+		- Defined Naming Schema
+		- Keyed by the record keeper
+	- Internally
+		- Consecutive running ledger for the Grouping
+- BP Role
+	Template for the configuration of the business partner
+	- FI Vendor
+	
+## Reconciliation Process
+![[Reconciliation Account Diagram.png]]
+![[Account Receivables Intro - Blank T Charts.png]]
+### Managing Accounts Payable
+- Company specific configurations for the following elements
+		- Reconciliation Account
+		- Payment Terms and Basic Data
+### Manage Accounts Receivable
+- Company specific configurations for the following elements
+		- Reconciliation Account
+		- Payment Terms
+		- Dunning Terms
