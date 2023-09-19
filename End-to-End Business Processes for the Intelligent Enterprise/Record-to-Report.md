@@ -137,6 +137,7 @@ Company Code views of the Business Partners allow for specific configurations fo
 - BP Role
 	Template for the configuration of the business partner
 	- FI Vendor
+	- FI Customer
 	
 ## Reconciliation Process
 ![[Reconciliation Account Diagram.png]]
@@ -150,3 +151,84 @@ Company Code views of the Business Partners allow for specific configurations fo
 		- Reconciliation Account
 		- Payment Terms
 		- Dunning Terms
+![[Managing Accounts Receivable.png]]
+## Asset Accounting
+Balance Sheet Categories
+	- Intangible Assets
+	- Fixed Assets
+		Non-current asset accounts are usually subdivided into line items for the sake of balance sheet reporting
+	- Financial Assets
+		SAP's customization tool for financial instruments is the "Financial Risk & Treasury Software"
+### Asset Lifecycle
+#### Create Asset Master Record
+##### Fixed Asset Master Record
+Accounting Data
+	- Asset  Class
+		- Account
+		- Control Parameters
+		- Master Data Default Values
+	- Depreciation Areas
+		-These different valuation approaches are displayed using depreciation areas (and ledgers) in the asset master record. **For this reason, the control parameters and default values (see Asset Class) for the depreciation calculation are always displayed at the level of the depreciation area of an asset.**
+General Master Data Requirements:
+	- Asset Description
+	- Account Information (Cost center, etc)
+	- Posting Information (Activation Date)
+	- Physical Inventory Data (Last Inventory Date)
+	- Origin Data (Vendor, manufacturer)
+Valuation Data
+	- Depreciation Keys
+	- Useful Life
+	- Expired Useful Life
+	- Starting Date of Depreciation
+	- Scrap Value
+#### Asset Acquisition
+Posting Methods
+- via Accounts Payable
+	- Without Accounts Payable integration: The assets are posted either before the invoice is received or after the invoice is posted by the Accounts Payable department in a separate step.
+	- With Accounts Payable integration: The assets and the incoming invoices are posted in one step.
+- via Procurement
+	- Posted during "Goods Receipt" as part of the Invoicing Process
+Capitalization
+	Capitalization is determined during the Acquisition Process.
+	- Capitalization date controls the posting of the transactions and when the depreciation started.
+#### Asset Accounting and Depreciation
+- **Ordinary depreciation (Straight Line)** represents the planned depreciation of an asset when the asset is normally used. Ordinary depreciation reflects the deduction for wear and tear during the normal use of the asset.
+- **Unplanned depreciation** covers unusual influences that lead to a permanent decrease in the value of an asset. For example, damage of a production machine.
+- **Special depreciation** is a depreciation for wear and tear that is based solely on tax law. This type of depreciation allows you to depreciate a percentage of the asset value. The percentage rate can be scaled within a tax concession period, without taking into account the actual wear and tear of the asset.
+#### Asset Retirement
+- Sale
+	- Posts to a clearing account
+	- Integrated with AR
+- Scrapping
+## Ledgers for Parallel Accounting
+[Parallel Accounting | SAP Help Portal](https://help.sap.com/docs/SAP_S4HANA_CLOUD/6b39bd1d0e5e4099a5b65d835c29c696/fce0d25320cd4608e10000000a174cb4.html)
+
+## Processing Plan and Actual Data in Overhead Cost Controlling
+Material Costs +
+Production Costs
+______________
+= Cost of Goods Manufactured
++
+Sales Costs and Administrative Overhead Costs
+______________________
+= Cost of Goods Sold
+### Cost Center Master Data
+- Cost centers define areas of responsibility within the company that collect overhead costs
+- Secondary Cost Accounts
+	Secondary cost elements are only posted in Management Accounting (CO). These accounts are designated with the account type "Secondary Costs"
+- Activity Types
+	Activity Types exist so that work centers can transfer types and keep track of them against the overhead.
+	Inter-cost center activities are managed via the WBS or other cost centers
+	- Price Indicator
+		Cost to be billed in the system
+	- Allocation Cost Element
+		Secondary Cost Element account for CO
+- Plan Price
+	Activity Costs can be variable or fixed
+### Profit Planning
+	Final step of the Sales and Operations planning cycle where projections are measured against the benchmarks of the enterpise. This is the feedback cycle for the S&OP planning cycle.
+
+
+![[Cost Center Master Data Hierarchy.png]]
+![[Secondary Cost Account Structure.png]]
+### Work Breakdown Structure (WBS elements)
