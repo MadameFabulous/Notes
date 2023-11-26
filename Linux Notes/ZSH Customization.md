@@ -1,3 +1,11 @@
+```
+sudo apt install zsh
+```
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)
+```
+
 OhMyZSH - Automated script for installing ZSH terminals
 ```
 https://github.com/ohmyzsh/ohmyzsh
@@ -14,3 +22,4 @@ https://stackoverflow.com/questions/27885057/zsh-theme-for-full-path-display-git
 4. Change %c% to %~% 
    ```PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'``` -> ```PROMPT+=' %{$fg[cyan]%}%~%{$reset_color%} $(git_prompt_info)'```
 5. Save the theme, change .zshrc to reference new theme
+6. ```sudo nano ~/.zshrc```
