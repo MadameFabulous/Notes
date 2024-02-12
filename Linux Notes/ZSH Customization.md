@@ -21,11 +21,11 @@ echo $ZSH_THEME
 ```
 
 ```
-cp $ZSH/themes/robbyrussell.zsh-theme $ZSH_CUSTOM/themes/
+cp $ZSH/themes/robbyrussell.zsh-theme $ZSH_CUSTOM/themes/paxromana.zsh-theme
 ```
 
 ```
-nano $ZSH_CUSTOM/themes/robbyrussell.zsh-theme
+nano $ZSH_CUSTOM/themes/paxromana.zsh-theme
 ```
 
 Change %c% to %~% 
