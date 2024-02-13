@@ -1,3 +1,4 @@
+## Installs
 ```
 sudo apt install zsh
 ```
@@ -12,7 +13,7 @@ https://github.com/ohmyzsh/ohmyzsh
 ```
 
 
-After ohmyzsh reverting root directory reference
+## After ohmyzsh reverting root directory reference
 
 https://stackoverflow.com/questions/27885057/zsh-theme-for-full-path-display-git-changes
 
@@ -32,3 +33,8 @@ Change %c% to %~%
    ```PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'``` -> ```PROMPT+=' %{$fg[cyan]%}%~%{$reset_color%} $(git_prompt_info)'```
 5. Save the theme, change .zshrc to reference new theme
 6. ```sudo nano ~/.zshrc```
+## Update .zshrc file
+	Update .zshrc file to reference the new template (paxromana)
+```
+sudo nano .zshrc
+```
