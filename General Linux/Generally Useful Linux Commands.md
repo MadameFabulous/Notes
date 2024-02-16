@@ -1,4 +1,8 @@
+```
+curl -L hotdogstand.lol
+```
 # Concatenate All Files in a Directory Recursively
+
 ```
 find . -type f -exec cat {} \;
 ```
@@ -18,3 +22,4 @@ systemd-detect-virt
 ```
 ss -ntulp | awk '{print $5}' | awk -F : '{print $2}' | sort | uniq
 ```
+
