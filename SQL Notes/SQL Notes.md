@@ -86,3 +86,10 @@ group by a.query_name
 | 500         | 74          | 2019-8-27  | 2019-8-28                   |
 | 65          | 15          | 2019-7-28  | 2019-8-20                   |
 | 160         | 82          | 2019-7-1   | 2019-8-28                   |
+
+
+
+
+```
+what about this? SELECT [s1.product](https://s1.product/)_id, [s1.year](https://s1.year/) AS first_year, [s1.quantity](https://s1.quantity/), [s1.price](https://s1.price/) FROM Sales s1 LEFT JOIN Sales s2 ON [s1.product](https://s1.product/)_id = [s2.product](https://s2.product/)_id AND [s1.year](https://s1.year/) > [s2.year](https://s2.year/) WHERE [s2.product](https://s2.product/)_id IS NULL
+```
