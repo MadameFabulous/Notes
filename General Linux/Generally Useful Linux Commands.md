@@ -23,3 +23,7 @@ systemd-detect-virt
 ss -ntulp | awk '{print $5}' | awk -F : '{print $2}' | sort | uniq
 ```
 
+# Check Sudo Permissions for SomeUser
+```
+sudo -l -U SomeUser
+```
