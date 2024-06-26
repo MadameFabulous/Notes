@@ -1,5 +1,9 @@
+# Stabilize Shell
 ```
-curl -L hotdogstand.lol
+python3 -c 'import pty;pty.spawn("bin/bash")'
+```
+```
+script /dev/null -c bash 
 ```
 # Concatenate All Files in a Directory Recursively
 
@@ -26,4 +30,14 @@ ss -ntulp | awk '{print $5}' | awk -F : '{print $2}' | sort | uniq
 # Check Sudo Permissions for SomeUser
 ```
 sudo -l -U SomeUser
+```
+
+# Display users on a system
+```
+awk -F: '{ print $1}' /etc/passwd
+```
+
+
+```
+curl -L hotdogstand.lol
 ```
