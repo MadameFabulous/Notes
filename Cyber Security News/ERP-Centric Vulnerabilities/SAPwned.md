@@ -23,5 +23,28 @@ We found an instance of Grafana Loki on the cluster, so we requested the `/conf
 Unrestricted networks ->Grafana Loki Instance->exposed config -> Exposed secrets for SAP's s3 bucket
 
 ## Bug 3 - Elastic File System and Exposed Customer Data
-
 [The EKS Hacking Playbook: Lessons From 3 Years of Cloud Security Research (youtube.com)](https://www.youtube.com/watch?v=HcNmkCRXFdE)
+Unrestricted networks -> Default Configuration for EFS -> Config set to public by default
+
+```
+A [common problem](https://youtu.be/HcNmkCRXFdE) with EFS instances is their default configuration as public – meaning credentials aren’t needed to view or edit files, as long as you have network access to their NFS ports.
+```
+## Bug 4 - Unauthenticated Helm server compromises internal Docker Registry and Artifactory
+Communication with Tiller is made via its gRPC interface on port 44134, which is by default exposed without any authentication.
+Unrestricted networks ->Tiler->  gRPC interface on port 44134 -> exposed credentials for Docker Registry and Artifactory-> customer AI builds readable
+
+### Exploit Mechanics
+```
+Communication with Tiller is made via its gRPC interface on port 44134, which is by default exposed without any authentication.
+```
+
+### Access to
+```
+Using the secrets’ write access, an attacker could poison images and builds, conducting a supply-chain attack on SAP AI Core services.
+```
+## Bug 5 - Unauthenticated Helm server compromises K8s cluster, exposing Google access tokens and customer secrets 
+
+```
+The Helm server was exposed to both read and write operations. While the read access exposed sensitive secrets (as can be seen above), the server’s write access allowed for a complete cluster takeover.
+```
+Unrestricted networks -> Kubernetes Helm Misconfiguration  -> Tiler Write Access via Helm  -> Tiler install command -> Created new container with cluster admin privileges -> Kubernetes takeover
