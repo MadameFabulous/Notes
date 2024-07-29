@@ -17,6 +17,9 @@ OhMyZSH - Automated script for installing ZSH terminals
 https://github.com/ohmyzsh/ohmyzsh
 ```
 
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 ## After ohmyzsh reverting root directory reference
 
@@ -44,10 +47,12 @@ sudo nano .zshrc
 ![[Pasted image 20240220194452.png]]
 
 ## Adding zoxide
+['zoxide init --cmd cd bash' causing using cd to crash terminal · Issue #694 · ajeetdsouza/zoxide · GitHub](https://github.com/ajeetdsouza/zoxide/issues/694)
+
 ```
 curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
 ```
-add 
+## Adding Neofetch and zshrc
 ```
 clear
 neofetch|lolcat
