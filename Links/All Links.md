@@ -1,16 +1,23 @@
 # Cyber Security Resources
-## HackTricks
+## Learning Platforms
+[Blue Team Labs Online - Cyber Range](https://blueteamlabs.online/)
+## Public Pentesting Reports
+[GitHub - juliocesarfort/public-pentesting-reports:](https://github.com/juliocesarfort/public-pentesting-reports)
+## Cyber Security Tools
+
+### HackTricks
 [HackTricks - HackTricks](https://book.hacktricks.xyz/welcome/readme)
-## SpeedGuide Common Port Lookups
+### SpeedGuide Common Port Lookups
 [SpeedGuide - Port Lookups](https://www.speedguide.net/)
-## Weakpass
+### Weakpass
 [Weakpass](https://weakpass.com/wordlist/1946)
 Password List Aggregation
-## GO AD - Active Directory Resources
+### GO AD - Active Directory Resources
 [GOAD - part 1 - reconnaissance and scan | Mayfly (mayfly277.github.io)](https://mayfly277.github.io/posts/GOADv2-pwning_part1/)
-## Mindmaps for Active Directory
-[Welcome to Orange Cyberdefense - Active Directory Mindmaps](https://orange-cyberdefense.github.io/ocd-mindmaps/)
-
+### Mindmaps for Active Directory
+[Welcome to Orange Cyberdefense - Active Directory Mindmaps](https://orange-cyberdefense.github.io/ocd-mindmaps/
+### OSCP Cheat 
+[GitHub - saisathvik1/OSCP-Cheatsheet: OSCP Cheatsheet by Sai Sathvik](https://github.com/saisathvik1/OSCP-Cheatsheet)
 # Homelab
 ## Proxmox Helper Scripts (Techno Tim)
 [Techno Tim Proxmox Helper Scripts](https://tteck.github.io/Proxmox/)
