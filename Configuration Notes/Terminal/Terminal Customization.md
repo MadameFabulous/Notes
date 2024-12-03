@@ -72,3 +72,53 @@ Source: ['zoxide init --cmd cd bash' causing using cd to crash terminal · Issue
 export PATH=/home/{host_name}/.local/bin:$PATH
 ```
 
+# Autocomplete (Same style as base kali)
+```
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+```
+
+![[Pasted image 20241116145226.png]]
+
+
+```
+NEWLINE=$'\n'
+PROMPT="%F{#FFFFFF}$(TZ=America/New_York date "+%H:%M:%S") %F{#5BCEFA}%n@%m %F{#F5A9B8}%~ %f${NEWLINE}%F{#F5A9B8}$(TZ=UTC date "+%H:%M:%S") %F{#FFFFFF}> %f"
+```
+
+
+## Example
+```
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+#autosuggetion
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+#zoxide
+export PATH=$PATH:/home/madamefabulous/.local/bin
+eval "$(zoxide init --cmd cd zsh)"
+#neovim
+export PATH="$PATH:/opt/nvim-linux64/bin"
+
+#searchvector
+alias searchvector="/opt/searchvector/myenv/bin/python3 /opt/searchvector/searchvector.py"
+#siren templates
+alias common="clear;cat /home/madamefabulous/Documents/common;tmux set mouse off"
+alias shells="clear;cat /home/madamefabulous/Documents/shells;tmux set mouse off"
+alias breakout="clear;cat /home/madamefabulous/Documents/breakout;tmux set mouse off"
+alias template="clear;cat /home/madamefabulous/Documents/template;tmux set mouse off"
+
+
+NEWLINE=$'\n'
+PROMPT="%F{#FFFFFF}$(TZ=America/New_York date "+%H:%M:%S") %F{#5BCEFA}%n@%m %F{#F5A9B8}%~ %f${NEWLINE}%F{#F5A9B8}$(TZ=UTC date "+%H:%M:%S") %F{#FFFFFF}> %f"
+```
+
+
+Updates every time
+```
+precmd() {
+    NEWLINE=$'\n'
+    PROMPT="%F{#FFFFFF}$(TZ=America/New_York date "+%H:%M:%S") %F{#5BCEFA}%n@%m %F{#F5A9B8}%~ %f${NEWLINE}%F{#F5A9B8}$(TZ=UTC date "+%H:%M:%S") %F{#FFFFFF}> %f"
+}
+```

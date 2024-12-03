@@ -69,3 +69,10 @@ mount -a
 ```
 Loads fstab without restart allowing for troubleshooting. Breaking fstab sometimes will prevent you from being able to login to the machine after the daemon restarts.'
 
+
+
+# Find TCP Strings from Rustscan
+```
+grep -oP '\d+/tcp' rustscan-sCV-Pn-T4-p- | sort -u | awk '{print "{" $0 "}"}'
+```
+

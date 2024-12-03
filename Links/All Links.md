@@ -3,6 +3,10 @@
 [Blue Team Labs Online - Cyber Range](https://blueteamlabs.online/)
 ## Public Pentesting Reports
 [GitHub - juliocesarfort/public-pentesting-reports:](https://github.com/juliocesarfort/public-pentesting-reports)
+### Taggart Institute Buffer Overflow
+[An Oral History of Binary Exploitation Defenses | The Taggart (taggartinstitute.org)](https://taggartinstitute.org/p/an-oral-history-of-binary-exploitation-defenses)
+### LiveOverflow
+[Binary Exploitation / Memory Corruption by LiveOverflow - YouTube](https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN)
 ## Cyber Security Tools
 
 ### HackTricks
@@ -18,6 +22,9 @@ Password List Aggregation
 [Welcome to Orange Cyberdefense - Active Directory Mindmaps](https://orange-cyberdefense.github.io/ocd-mindmaps/
 ### OSCP Cheat 
 [GitHub - saisathvik1/OSCP-Cheatsheet: OSCP Cheatsheet by Sai Sathvik](https://github.com/saisathvik1/OSCP-Cheatsheet)
+
+## OSINT
+Over Pass 
 # Homelab
 ## Proxmox Helper Scripts (Techno Tim)
 [Techno Tim Proxmox Helper Scripts](https://tteck.github.io/Proxmox/)
@@ -34,3 +41,4 @@ https://github.com/dastergon/awesome-chaos-engineering
 ##  Grymoire (Sun Observer Shell Tutorials from 1989-1995)
 https://grymoire.com/Unix/index.html#toc_Tutorials
 
+C:WINDOWS\Tasks
